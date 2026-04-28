@@ -5,746 +5,841 @@ date: 2026-04-28
 lang: zh
 ---
 
-> From 53 items, 32 important content pieces were selected
+> From 123 items, 37 important content pieces were selected
 
 ---
 
-1. [微软与 OpenAI 终止独家收入分成协议](#item-1) ⭐️ 9.0/10
-2. [FDA 批准首个基因疗法治疗遗传性听力损失](#item-2) ⭐️ 9.0/10
-3. [pgBackRest 归档：维护者退出](#item-3) ⭐️ 9.0/10
-4. [Luce DFlash：在 RTX 3090 上实现 Qwen3.6-27B 两倍吞吐量](#item-4) ⭐️ 9.0/10
-5. [ChatGPT 5.2 在东大京大入学考试中超越人类最高分](#item-5) ⭐️ 9.0/10
-6. [量子放大镜在实验室创造出迄今最强光](#item-6) ⭐️ 9.0/10
-7. [vLLM v0.20.0 发布，支持 DeepSeek V4 和 CUDA 13.0](#item-7) ⭐️ 8.0/10
-8. [Mercor 数据泄露 4TB 语音样本和身份证件](#item-8) ⭐️ 8.0/10
-9. [中国阻止 Meta 收购 AI 初创公司 Manus](#item-9) ⭐️ 8.0/10
-10. [Super ZSNES：GPU 加速的 SNES 模拟器重生](#item-10) ⭐️ 8.0/10
-11. [GitHub Copilot 转向按用量计费](#item-11) ⭐️ 8.0/10
-12. [开源 CLI 智能体在 TerminalBench 上超越谷歌官方结果](#item-12) ⭐️ 8.0/10
-13. [最高法院权衡地理围栏搜查令合宪性](#item-13) ⭐️ 8.0/10
-14. [微软开源带说话人分离的 VibeVoice](#item-14) ⭐️ 8.0/10
-15. [微软与 OpenAI 移除 AGI 条款](#item-15) ⭐️ 8.0/10
-16. [Zig 0.16.0 通过 Io 接口引入结构化并发](#item-16) ⭐️ 8.0/10
-17. [MiMo-V2.5-Pro：开源 AI 模型挑战 Claude Opus](#item-17) ⭐️ 8.0/10
-18. [Asahi Linux 对苹果 M3 芯片的适配接近 Alpha 水平](#item-18) ⭐️ 8.0/10
-19. [小米玄戒 O1 芯片出货量突破 100 万颗](#item-19) ⭐️ 8.0/10
-20. [Easyduino：面向 KiCad 的开源 PCB 开发板设计](#item-20) ⭐️ 7.0/10
-21. [macOS 27 将强制 TLS 1.2，弃用 AFP 用于 Time Machine](#item-21) ⭐️ 7.0/10
-22. [凝视墙壁的失落艺术](#item-22) ⭐️ 7.0/10
-23. [SVG 消毒的困境](#item-23) ⭐️ 7.0/10
-24. [为什么不用 Lean？一个批判性比较](#item-24) ⭐️ 7.0/10
-25. [pip 26.1 发布，新增依赖冷却和 pylock 支持](#item-25) ⭐️ 7.0/10
-26. [Linux 7.1 合并窗口关闭，包含近 1.3 万个变更集](#item-26) ⭐️ 7.0/10
-27. [微软开源 TRELLIS.2：40 亿参数图像转 3D 模型](#item-27) ⭐️ 7.0/10
-28. [4B 参数 LLM 基准测试：Nemotron 3 Nano 在金融、推理和代码任务中夺冠](#item-28) ⭐️ 7.0/10
-29. [通过添加旧 GPU 增加 LLM 的 VRAM](#item-29) ⭐️ 7.0/10
-30. [Skymizer 发布 384GB PCIe 卡，支持 700B 参数大模型推理](#item-30) ⭐️ 7.0/10
-31. [微软 Windows K2 计划旨在重塑 Windows 11](#item-31) ⭐️ 7.0/10
-32. [中国科技巨头因 AI 内容遭用户抵制](#item-32) ⭐️ 7.0/10
+1. [阿联酋退出 OPEC 及 OPEC+，重大转变](#item-1) ⭐️ 8.0/10
+2. [经期追踪应用与 Meta 共享数据](#item-2) ⭐️ 8.0/10
+3. [Pip 26.1 引入锁文件和依赖冷却期](#item-3) ⭐️ 8.0/10
+4. [Talkie：基于 1931 年前文本训练的 13B 复古语言模型](#item-4) ⭐️ 8.0/10
+5. [微软开源 VibeVoice，内置说话人分离功能](#item-5) ⭐️ 8.0/10
+6. [OpenAI 与微软的 AGI 条款在多年争议后被移除](#item-6) ⭐️ 8.0/10
+7. [杀虫剂导致美国蝴蝶数量下降 22%](#item-7) ⭐️ 8.0/10
+8. [阿里平头哥发布国内首款内置 PCIe Switch 的 400G 智能网卡](#item-8) ⭐️ 8.0/10
+9. [Ubuntu AI 功能确认为可选，可通过移除 Snap 卸载](#item-9) ⭐️ 8.0/10
+10. [Linux 7.1 主线内核为 ARM 添加原生实时支持](#item-10) ⭐️ 8.0/10
+11. [LocalSend：开源跨平台 AirDrop 替代品](#item-11) ⭐️ 7.0/10
+12. [OpenAI CEO 的身份验证公司伪造与布鲁诺·马斯的合作](#item-12) ⭐️ 7.0/10
+13. [GitHub Copilot 代码审查将消耗 Actions 分钟数](#item-13) ⭐️ 7.0/10
+14. [互动工具揭示个人蓝绿界限差异](#item-14) ⭐️ 7.0/10
+15. [WASM 并非栈式机器](#item-15) ⭐️ 7.0/10
+16. [苹果 Vision Pro 辅助白内障手术实现 3D 可视化](#item-16) ⭐️ 7.0/10
+17. [《财富》：AI 成本常高于人力](#item-17) ⭐️ 7.0/10
+18. [Ubuntu 26.04 LTS 在创作者工作站基准测试中超越 Windows 11](#item-18) ⭐️ 7.0/10
+19. [AMD Lemonade SDK 10.3 移除 Electron，体积缩小 10 倍](#item-19) ⭐️ 7.0/10
+20. [德国主权技术局启动开放标准资助计划](#item-20) ⭐️ 7.0/10
+21. [GCC 16 改进错误信息，新增实验性 HTML 输出](#item-21) ⭐️ 7.0/10
+22. [Fedora 44 发布，搭载 GNOME 50 和 Plasma 6.6](#item-22) ⭐️ 7.0/10
+23. [Proton 11.0 Beta 2 更新 VKD3D-Proton](#item-23) ⭐️ 7.0/10
+24. [AMD XDNA 驱动为 NPU 添加硬件调度时间量子以实现公平性](#item-24) ⭐️ 7.0/10
+25. [RADV Vulkan 驱动通过 AMD TMZ 增加受保护内存支持](#item-25) ⭐️ 7.0/10
+26. [uv 0.11.8 发布，带来小幅增强和配置选项](#item-26) ⭐️ 6.0/10
+27. [Yglesias 倾向专业 AI 编程而非氛围编程](#item-27) ⭐️ 6.0/10
+28. [Google Meet 语音翻译功能扩展至移动端](#item-28) ⭐️ 6.0/10
+29. [影石创新一季度营收增长 83%，计划推出新相机和无人机](#item-29) ⭐️ 6.0/10
+30. [三星 Exynos 2600 推出 ENSS，类似 DLSS 的 AI 超分技术](#item-30) ⭐️ 6.0/10
+31. [SpaceX 董事会将马斯克薪酬与火星殖民及 7.5 万亿美元估值挂钩](#item-31) ⭐️ 6.0/10
+32. [7-Zip 26.01 在 Linux 上增加大页支持以提升压缩速度](#item-32) ⭐️ 6.0/10
+33. [Stratis Storage 3.9 新增在线加密/解密/重新加密功能](#item-33) ⭐️ 6.0/10
+34. [Valve 公布 Steam 手柄发售日期及 99 美元定价](#item-34) ⭐️ 6.0/10
+35. [英特尔酷睿 Ultra 5 250K Plus 以 219 美元为 Linux 用户提供卓越价值](#item-35) ⭐️ 6.0/10
+36. [AMD VPE 2.0 支持已合并到 Mesa 26.2](#item-36) ⭐️ 6.0/10
+37. [D7VK v1.8 增强 Vulkan 上的旧版 Direct3D 支持](#item-37) ⭐️ 6.0/10
 
 ---
 
 <a id="item-1"></a>
-## [微软与 OpenAI 终止独家收入分成协议](https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai) ⭐️ 9.0/10
+## [阿联酋退出 OPEC 及 OPEC+，重大转变](https://www.reuters.com/markets/commodities/uae-says-it-quits-opec-opec-statement-2026-04-28/) ⭐️ 8.0/10
 
-微软与 OpenAI 重组了合作关系，终止了要求 OpenAI 独家使用 Azure 的独家收入分成协议。根据新条款，微软将不再向 OpenAI 支付收入分成，而 OpenAI 向微软的支付将持续到 2030 年，保持 20%的相同比例但设有总上限。 这一转变使 OpenAI 能够使用其他云服务商（如 AWS）以及潜在的 Google TPU，打破了微软对 OpenAI 基础设施的独家控制。这可能重塑 AI 云市场，加剧云服务商之间的竞争，并加速 OpenAI 获取 Google 最新 TPU 等专用硬件。 OpenAI 向微软支付的收入分成仍为 20%，但设有上限，微软继续作为主要股东，持股比例从 49%降至 27%。OpenAI 现在可以自由地在 AWS 和其他云上运行工作负载，并可能考虑使用 Google 新推出的 Gen 8 TPU。
+2026 年 4 月 28 日，阿联酋宣布将于 5 月 1 日退出 OPEC 及 OPEC+，结束近 60 年的成员身份，使该组织失去第三大产油国。 此次退出削弱了 OPEC 的定价能力，并可能重塑全球石油供应格局，尤其是在霍尔木兹海峡持续紧张的地缘政治背景下。这也标志着阿联酋与沙特阿拉伯之间的裂痕，可能改变中东联盟格局。 阿联酋长期以来对 OPEC 的生产配额感到不满，因其计划将产能提升至每日 500 万桶。这一决定发生在伊朗战争期间，且此前沙特阿拉伯刚为巴基斯坦偿还了阿联酋的 35 亿美元贷款。
 
-hackernews · helsinkiandrew · Apr 27, 13:22
+hackernews · TechTechTech · Apr 28, 13:13
 
-**背景**: 微软与 OpenAI 于 2019 年建立了紧密的合作关系，微软投资数十亿美元并通过 Azure 提供独家云基础设施。该协议包括一项收入分成安排，微软获得 OpenAI 收入的 20%。这一独家安排限制了 OpenAI 使用竞争性云服务或 Google TPU 等专用硬件的能力，而其他前沿 AI 实验室广泛使用这些硬件。
+**背景**: OPEC 是一个产油国卡特尔，通过协调产量来影响全球油价。OPEC+还包括俄罗斯等非 OPEC 产油国。阿联酋作为 OPEC 第三大产油国，拥有重要影响力，但经常对沙特主导的配额限制感到不满。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/">The next phase of the Microsoft-OpenAI partnership</a></li>
-<li><a href="https://www.cnbc.com/2026/04/27/openai-microsoft-partnership-revenue-cap.html">OpenAI shakes up partnership with Microsoft, capping revenue ...</a></li>
-<li><a href="https://cloud.google.com/tpu">Tensor Processing Units (TPUs) | Google Cloud</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OPEC">OPEC</a></li>
+<li><a href="https://www.cnbc.com/2026/04/28/uae-opec-oil-iran.html">United Arab Emirates to leave OPEC May 1, energy chief says ... The UAE is leaving OPEC on Friday : NPR UAE leaves OPEC and OPEC+ - Al Jazeera UAE exit from OPEC+: What it means for oil market amid Strait ... United Arab Emirates to quit oil cartel Opec - BBC UAE Quits OPEC and OPEC+ as Hormuz Crisis Drags On UAE to Exit OPEC and OPEC+ by May 2026: National Interest ...</a></li>
+<li><a href="https://www.wdio.com/ap-top-news/united-arab-emirates-says-it-will-leave-opec-in-a-blow-to-the-oil-cartel/">United Arab Emirates says it will leave OPEC in a blow to the oil cartel</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者认为 Google 可能是赢家，因为 OpenAI 现在可能采用 Google TPU。有人质疑微软为何同意看似对 OpenAI 有利的条款，推测微软担心之前的协议损害了 OpenAI 对抗 Anthropic 等竞争对手的能力。其他人指出，此举允许 OpenAI 使用 AWS，凸显了 Azure 地位的削弱。
+**社区讨论**: 评论者指出，OPEC 长期以来面临配额作弊问题，阿联酋的退出可能进一步削弱其权力。一些人认为这是亲美举动，削弱了沙特和俄罗斯的影响力，而另一些人则将其与巴基斯坦贷款引发的金融紧张联系起来。
 
-**标签**: `#AI`, `#Microsoft`, `#OpenAI`, `#Cloud Computing`, `#Partnership`
+**标签**: `#geopolitics`, `#oil`, `#OPEC`, `#energy`, `#UAE`
 
 ---
 
 <a id="item-2"></a>
-## [FDA 批准首个基因疗法治疗遗传性听力损失](https://www.fda.gov/news-events/press-announcements/fda-approves-first-ever-gene-therapy-treatment-genetic-hearing-loss-under-national-priority-voucher) ⭐️ 9.0/10
+## [经期追踪应用与 Meta 共享数据](https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been) ⭐️ 8.0/10
 
-美国食品药品监督管理局（FDA）批准了首个针对 OTOF 基因突变导致的遗传性听力损失的基因疗法，这标志着治疗先天性耳聋的历史性里程碑。 这一批准为遗传性耳聋的新型治疗打开了大门，有望恢复那些原本需要依赖人工耳蜗或助听器的儿童的听力，并为针对其他致聋基因的疗法铺平了道路。 该疗法名为 DB-OTO，使用双腺相关病毒（AAV）载体将功能性 OTOF 基因拷贝递送至内耳毛细胞，并通过内耳注射给药。它专门针对由 OTOF 基因突变引起的常染色体隐性耳聋 9 型（DFNB9），这是一种罕见的先天性耳聋。
+一款经期追踪应用一直在将用户的敏感健康数据分享给 Meta，引发了严重的隐私和法律担忧。 这之所以重要，是因为月经健康数据高度敏感，未经授权的分享可能使用户面临歧视或法律风险，尤其是在生殖权利受限的地区。 这种数据共享可能违反保护健康信息隐私的 HIPAA 法规，社区成员指出存在 Drip、Mensinator 和 Menstrudel 等开源替代方案，它们不与第三方共享数据。
 
-hackernews · JeanKage · Apr 27, 10:15
+hackernews · campuscodi · Apr 28, 11:31
 
-**背景**: 基因突变占出生时听力损失原因的 60%。OTOF 基因负责编码一种对听力至关重要的蛋白质——otoferlin。OTOF 基因突变会破坏声音信号从毛细胞到听觉神经的传递，导致重度至极重度耳聋。此前，遗传性听力损失的治疗仅限于助听器或人工耳蜗，这些方法并未解决根本的遗传原因。
+**背景**: 经期追踪应用帮助用户监测月经周期，但许多应用依赖云服务并与广告商共享数据。HIPAA 是美国一项为健康信息设定隐私标准的法律，但可能不涵盖所有健康应用。开源应用允许用户验证数据处理方式。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.nature.com/articles/s41586-026-10393-y">Multicentre gene therapy for OTOF-related deafness followed ...</a></li>
-<li><a href="https://www.massgeneralbrigham.org/en/about/newsroom/press-releases/otof-deafness-gene-therapy-trial-update">Hearing Restoration From Gene Therapy for Inherited Deafness ...</a></li>
-<li><a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2400521">DB-OTO Gene Therapy for Inherited Deafness | New England Journal of Medicine</a></li>
+<li><a href="https://bloodyhealth.gitlab.io/">drip. app</a></li>
+<li><a href="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html">Summary of the HIPAA Privacy Rule - HHS.gov</a></li>
+<li><a href="https://alternativeto.net/software/period-calendar-cycle-tracker/?license=opensource">Open Source My Calendar - Period Tracker Alternatives: Top 8 Period Trackers & Similar Apps | AlternativeTo</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论对这一批准表达了广泛的热情，许多人分享了个人听力损失的经历和对未来治疗的希望。一些用户指出，虽然该疗法针对的人群较小，但这是向前迈出的关键一步；其他人则强调需要针对其他遗传原因（如 GJB2 突变）的疗法。少数人表示失望，因为他们特定的耳聋类型（例如由腮腺炎引起）尚无法通过此类方法治疗。
+**社区讨论**: 评论者表达了愤怒，有人指出 Meta 可能将数据分享给针对生殖权利的政府。另一人呼吁终结数据经纪商商业模式，其他人则推荐了 Drip 和 Mensinator 等开源替代方案。
 
-**标签**: `#gene therapy`, `#FDA approval`, `#hearing loss`, `#medical breakthrough`, `#biotechnology`
+**标签**: `#privacy`, `#health data`, `#HIPAA`, `#open source`, `#data brokers`
 
 ---
 
 <a id="item-3"></a>
-## [pgBackRest 归档：维护者退出](https://lwn.net/Articles/1069951/) ⭐️ 9.0/10
+## [Pip 26.1 引入锁文件和依赖冷却期](https://simonwillison.net/2026/Apr/28/pip-261/#atom-everything) ⭐️ 8.0/10
 
-pgBackRest 的创建者和唯一维护者 David Steele 已将项目在 GitHub 上归档，并宣布经过 13 年的开发后不再维护。 这一广泛使用的 PostgreSQL 备份工具的停用凸显了开源可持续性的关键问题，包括维护者倦怠以及 Crunchy Data 被收购后企业赞助的流失。 pgBackRest 在 GitHub 上拥有 3800 颗星，并在 Crunchy Data 被出售前由其赞助；Steele 寻找新赞助或职位以继续维护的努力未能成功。
+Pip 26.1 于 2026 年 4 月发布，通过 `pip lock` 命令引入了原生锁文件支持，并通过 `--uploaded-prior-to` 选项引入了依赖冷却期功能。同时停止了对 Python 3.9 的支持。 锁文件实现了完全可复现的 Python 环境，这是生产部署和 CI 中长期要求的功能。依赖冷却期通过阻止安装最近上传的包来帮助缓解供应链攻击。 锁文件以 TOML 格式（pylock.toml）编写，包含所有已解析的依赖及其精确版本。`--uploaded-prior-to` 选项使用 ISO 8601 持续时间格式（例如 P4D 表示 4 天）来指定包的最小年龄。
 
-rss · LWN.net · Apr 27, 14:06
+rss · Simon Willison · Apr 28, 05:23
 
-**背景**: pgBackRest 是一个针对 PostgreSQL 的开源备份和恢复工具，支持全量、差异和增量备份、WAL 归档以及时间点恢复。它由 David Steele 在 13 年间开发，最初由 PostgreSQL 服务公司 Crunchy Data 提供企业赞助。Crunchy Data 被出售后，赞助终止，Steele 失去了继续项目的资金。
+**背景**: Pip 是 Python 的默认包安装器。此前，可复现安装需要 pip-tools 或 pipenv 等外部工具。锁文件记录精确的依赖版本，而依赖冷却期是 2026 年跨包管理器逐渐普及的安全措施。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://pgbackrest.org/">pgBackRest - Reliable PostgreSQL Backup & Restore</a></li>
+<li><a href="https://simonwillison.net/2026/Apr/28/pip-261/">What's new in pip 26.1 - lockfiles and dependency cooldowns!</a></li>
+<li><a href="https://discuss.python.org/t/what-is-the-status-on-a-pip-lock-file/6669">What is the status on a pip lock file? - Packaging - Discussions on...</a></li>
+<li><a href="https://cooldowns.dev/">Dependency Cooldowns ¶</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员对 Steele 的工作表示遗憾和感谢，一些人指出源代码仍然可用，可以分支或付费维护。其他人则指出 Crunchy Data 的收购是一个警示，说明关键开源基础设施依赖单一公司赞助的风险。
+**社区讨论**: Lobste.rs 上的讨论（文章中有链接）总体上是积极的，用户称赞了期待已久的锁文件功能以及冷却期的实际安全效益。一些评论者指出，与 pip-compile 的输出相比，TOML 格式可能较为冗长。
 
-**标签**: `#PostgreSQL`, `#open source`, `#backup`, `#maintainer burnout`, `#pgBackRest`
+**标签**: `#pip`, `#Python`, `#package management`, `#lockfiles`, `#dependency management`
 
 ---
 
 <a id="item-4"></a>
-## [Luce DFlash：在 RTX 3090 上实现 Qwen3.6-27B 两倍吞吐量](https://i.redd.it/ppdt7ixx9rxg1.png) ⭐️ 9.0/10
+## [Talkie：基于 1931 年前文本训练的 13B 复古语言模型](https://simonwillison.net/2026/Apr/28/talkie/#atom-everything) ⭐️ 8.0/10
 
-Luce DFlash 是 DFlash 推测解码的 GGUF 移植版，在单张 RTX 3090 上无需重新训练即可将 Qwen3.6-27B 的吞吐量提升至 2 倍。 这一突破显著加速了消费级硬件上的本地 LLM 推理，使个人和小团队更容易获得高性能 AI。 该实现基于 ggml 使用独立的 C++/CUDA 栈，需要 CUDA 12+和 24 GB 显存的 NVIDIA GPU，在 HumanEval 和 GSM8K 等基准测试上实现约 1.98 倍的平均加速。
+研究人员 Nick Levine、David Duvenaud 和 Alec Radford 发布了 talkie-1930-13b-base，这是一个基于 260B tokens 的 1931 年前英文文本训练的 13B 参数语言模型，同时发布了微调后的聊天版本，两者均采用 Apache 2.0 许可证。 该模型为历史语言理解、时间泛化以及 AI 从近代以前知识库中“发明”现代概念的能力开辟了新的研究途径，对研究模型人格和偏见具有重要意义。 基础模型基于版权已过期的文本（1931 年前）训练，但聊天模型使用了 Claude Sonnet 4.6 等现代 LLM 生成合成指令数据和进行偏好优化，可能引入时代错位的污染。
 
-reddit · r/LocalLLaMA · sandropuppo · Apr 27, 16:31
+rss · Simon Willison · Apr 28, 02:47
 
-**背景**: 推测解码通过使用小型草稿模型提出令牌，再由大型目标模型并行验证，从而加速 LLM 推理。GGUF 是一种量化模型文件格式，可在消费级硬件上实现高效推理。DFlash 是一种专为推测解码设计的块扩散模型，支持并行草稿生成。
+**背景**: 大型语言模型通常基于包含版权材料的现代互联网文本进行训练，反映当代知识。仅基于历史文本训练模型，使研究人员能够研究此类模型对现代任务的泛化能力和预测未来事件的能力，同时避免版权问题。1931 年的截止日期对应于当前美国已出版作品的版权到期日。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Speculative_decoding">Speculative decoding</a></li>
-<li><a href="https://github.com/z-lab/dflash">z-lab/ dflash : DFlash : Block Diffusion for Flash Speculative Decoding ...</a></li>
-<li><a href="https://huggingface.co/docs/hub/gguf">GGUF · Hugging Face</a></li>
+<li><a href="https://simonwillison.net/2026/Apr/28/talkie/">Introducing talkie: a 13B vintage language model from 1930</a></li>
+<li><a href="https://talkie-lm.com/introducing-talkie">Introducing talkie: a 13B vintage language model from 1930</a></li>
+<li><a href="https://github.com/talkie-lm/talkie">GitHub - talkie-lm/talkie: talkie is a vintage language model from 1930 · GitHub</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反响非常积极，称赞这一创新和速度提升。部分用户担心量化导致的质量下降以及缺乏多 GPU 支持，另一些用户则询问使用场景和基准测试情况。
+**社区讨论**: 社区评论显示用户测试了模型的历史知识，结果喜忧参半：模型似乎更基于 1900 年前的信息，缺乏对大萧条的认识，并在技术问题上给出时代错位的答案（例如，认为爱迪生发明了时速 125 英里的汽车）。模型的回答礼貌且带有推测性，反映了 20 世纪初的乐观主义。
 
-**标签**: `#speculative decoding`, `#local LLM inference`, `#GGUF`, `#CUDA`, `#Qwen`
+**标签**: `#language model`, `#historical text`, `#open source`, `#NLP`, `#AI research`
 
 ---
 
 <a id="item-5"></a>
-## [ChatGPT 5.2 在东大京大入学考试中超越人类最高分](https://english.kyodonews.net/articles/-/74976) ⭐️ 9.0/10
+## [微软开源 VibeVoice，内置说话人分离功能](https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything) ⭐️ 8.0/10
 
-AI 创业公司 LifePrompt 测试显示，ChatGPT 5.2 Thinking 模型在东京大学和京都大学本科入学考试中得分超过人类最高分，其中在东大竞争最激烈的理科三类考试中数学获得满分。 这标志着 AI 在日本最顶尖大学入学考试中超越人类最高水平的重要里程碑，挑战了当前侧重记忆和计算的考试制度，并引发对教育改革的讨论。 测试将试卷转为图像输入，作文由日本大型补习学校河合塾的老师评分。2024 年 ChatGPT-4 未能及格，而 2025 年的 o1 模型首次过线。
-
-telegram · zaihuapd · Apr 27, 09:15
-
-**背景**: 东京大学和京都大学的入学考试是日本竞争最激烈的考试之一，考查深度知识和解题能力。ChatGPT 5.2 是 OpenAI 于 2025 年 12 月发布的模型系列，其中 Thinking 版本针对推理任务进行了优化。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/GPT-5.2">GPT - 5 . 2 - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#benchmark`, `#education`, `#ChatGPT`, `#Japan`
-
----
-
-<a id="item-6"></a>
-## [量子放大镜在实验室创造出迄今最强光](https://www.nature.com/articles/s41586-026-10400-2) ⭐️ 9.0/10
-
-物理学家利用 Gemini 激光系统和双等离子体镜的“量子放大镜”技术，在实验室产生了迄今最强光，在第 12 至 47 阶谐波中获得超过 9 mJ 能量，逼近施温格极限。 这一突破使实验室光强接近 10²⁹ W/cm²，为直接研究量子真空和强场量子电动力学开辟了道路，此前这些仅停留在理论层面。 实验使用双等离子体镜将激光上升时间缩短至约 351 飞秒，大幅提升了相对论表面高次谐波转换效率，实测效率与理论高度吻合。
-
-telegram · zaihuapd · Apr 27, 16:00
-
-**背景**: 施温格极限是量子电动力学中的临界电场强度，超过该强度真空会变得不稳定并自发产生电子-正电子对。达到该极限需要约 10²⁹ W/cm²的光强，这一直是高能物理学的长期目标。相对论表面高次谐波产生利用强激光脉冲与等离子体镜相互作用来产生相干的高阶谐波。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Schwinger_limit">Schwinger limit</a></li>
-<li><a href="https://arxiv.org/pdf/1406.4315">Enhanced harmonic generation in relativistic laser plasma interaction</a></li>
-<li><a href="https://arxiv.org/html/2502.09803v1">A Renewable Double Plasma Mirror For Petawatt-class Lasers</a></li>
-
-</ul>
-</details>
-
-**标签**: `#high-energy physics`, `#quantum electrodynamics`, `#laser physics`, `#plasma optics`, `#Schwinger limit`
-
----
-
-<a id="item-7"></a>
-## [vLLM v0.20.0 发布，支持 DeepSeek V4 和 CUDA 13.0](https://github.com/vllm-project/vllm/releases/tag/v0.20.0) ⭐️ 8.0/10
-
-vLLM v0.20.0 引入了对 DeepSeek V4 的初步支持，将默认 CUDA 轮子切换为 CUDA 13.0，升级至 PyTorch 2.11，并增加了对 Python 3.14 的支持。 此版本显著增强了 vLLM 服务前沿大语言模型的能力，尤其是 DeepSeek V4，并与最新的 CUDA 和 PyTorch 生态系统保持一致，使 AI 推理社区受益。 该版本包含来自 320 位贡献者的 752 次提交，显著特性包括 FlashAttention 4 作为默认 MLA 预填充、TurboQuant 2 位 KV 缓存以及新的在线量化前端。
-
-github · khluu · Apr 27, 21:20
-
-**背景**: vLLM 是一个开源的高吞吐量 LLM 推理引擎，广泛应用于生产环境。DeepSeek V4 是 DeepSeek 的最新模型，以强大的编码能力著称。CUDA 13.0 和 PyTorch 2.11 分别是 NVIDIA 并行计算平台和流行深度学习框架的最新版本。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/vllm-project/vllm/issues/40800">[Bug]: DeepSeek V4 intermittently leaks DSML fragments in ...</a></li>
-<li><a href="https://docs.vllm.ai/en/latest/features/speculative_decoding/mtp/">MTP (Multi-Token Prediction) - vLLM</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区报告了 DeepSeek V4 中的 DSML 令牌泄漏错误，v0.20.0 已修复。此外，还有关于 CUDA 版本策略跟随 PyTorch 的讨论，建议 CUDA 12.9 用户使用 `--torch-backend=cu129`。
-
-**标签**: `#vLLM`, `#LLM inference`, `#DeepSeek`, `#CUDA`, `#PyTorch`
-
----
-
-<a id="item-8"></a>
-## [Mercor 数据泄露 4TB 语音样本和身份证件](https://app.oravys.com/blog/mercor-breach-2026) ⭐️ 8.0/10
-
-AI 人员平台 Mercor 发生数据泄露，通过 LiteLLM 库中被入侵的 API 密钥，超过 4 万名承包商的 4TB 语音录音和身份证件被窃取。 此次泄露独特地将语音样本与身份证扫描件结合，为欺诈提供了现成的深度伪造工具包，可用于绕过银行声纹验证或在视频通话中冒充高管。 泄露通过管理 AI 模型 API 密钥的 Python 库 LiteLLM 发生，数据被发布在 Lapsus$泄露网站上。Mercor 于 2026 年 3 月 31 日确认该事件，并面临多起诉讼。
-
-hackernews · Oravys · Apr 27, 09:57
-
-**背景**: 音频深度伪造技术利用 AI 生成模仿特定个体的语音，通常仅需几秒钟的样本音频。语音克隆是深度伪造的一个子集，专注于音频操作。声纹等生物识别数据越来越多地用于身份验证，但与密码不同，一旦泄露就无法更改。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.jpost.com/business-and-innovation/article-894282">AI firm Mercor faces lawsuits over alleged data breach claim</a></li>
-<li><a href="https://byteiota.com/mercor-ai-breach-40000-voice-samples-stolen-lawsuits/">Mercor AI Breach: 40,000 Voice Samples Stolen—Lawsuits</a></li>
-<li><a href="https://aiproductivity.ai/news/mercor-breach-4tb-voice-data-ai-contractors/">4TB of Voice Recordings Stolen From 40,000 AI Contractors at ...</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者指出，受害者被要求将语音发送给另一家 AI 公司进行分析具有讽刺意味，并指出生物识别数据实际上是无法更改的“永久密码”。作者强调了实际攻击途径，如绕过银行声纹验证和 Arup 式视频通话欺诈。
-
-**标签**: `#data breach`, `#AI safety`, `#deepfake`, `#privacy`, `#cybersecurity`
-
----
-
-<a id="item-9"></a>
-## [中国阻止 Meta 收购 AI 初创公司 Manus](https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html) ⭐️ 8.0/10
-
-中国以出口管制和国家安全法为由，阻止了 Meta 对 AI 初创公司 Manus 的 20 亿美元收购，尽管 Manus 总部设在新加坡。 这标志着中国在 AI 技术领域运用域外法律管辖权的重大升级，可能重塑全球科技并购和 AI 治理格局。 Manus 在中国创立，后在 2025 年 5 月由 Benchmark 领投 7500 万美元融资后迁至新加坡。中国正寻求撤销已完成交易，援引出口管制法中的兜底条款和境外关联规则。
-
-hackernews · yakkomajuri · Apr 27, 11:43
-
-**背景**: 中国 2020 年更新的出口管制法允许政府限制敏感技术（包括 AI 算法）的转让。该法包含兜底条款（第 12 条），可适用于威胁国家安全的境外活动。此案与 TikTok 争端类似，中国对海外使用的中国起源算法主张控制权。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html">China blocks Meta's $2 billion takeover of AI startup Manus</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Manus_(AI_agent)">Manus (AI agent) - Wikipedia</a></li>
-<li><a href="https://www.medianama.com/2020/09/223-china-artificial-intelligence-export-tiktok/">China restricts AI exports, will now have a say in TikTok sale</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者争论中国是否在实施其版本的美国出口管制，有人指出考虑到 Meta 和 Google 的开放 AI 贡献，这具有讽刺意味。其他人质疑阻止一家新加坡公司的法律依据，以及这对新加坡作为科技中心角色的影响。
-
-**标签**: `#AI`, `#geopolitics`, `#regulation`, `#M&A`, `#China`
-
----
-
-<a id="item-10"></a>
-## [Super ZSNES：GPU 加速的 SNES 模拟器重生](https://zsnes.com/) ⭐️ 8.0/10
-
-ZSNES 的原开发者 zsKnight 和_Demo_发布了 Super ZSNES，这是一个完全重写的 SNES 模拟器，利用 GPU 加速实现增强性能，并支持高分辨率 Mode 7 和无损音频替换等功能。 这标志着 SNES 模拟技术的重大飞跃，可能提供更高的准确性和视觉增强，惠及复古游戏爱好者和游戏保存工作。 Super ZSNES 从头重写，利用 GPU 进行渲染，支持每款游戏的增强功能和现代化界面。它还支持无损音频替换，可提升音质。
-
-hackernews · haunter · Apr 27, 17:50
-
-**背景**: ZSNES 是最早且最流行的 SNES 模拟器之一，但多年前已停止开发。传统模拟器依赖 CPU 进行软件渲染，可能限制性能和准确性。GPU 加速模拟将图形处理卸载到显卡，从而实现更高分辨率和特效。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://arstechnica.com/gadgets/2026/04/super-zsnes-is-a-stab-at-a-modern-snes-emulator-from-the-original-developers/">"Super ZSNES" is a stab at a modern SNES emulator from the ...</a></li>
-<li><a href="https://www.techspot.com/downloads/7872-super-zsnes.html">Super ZSNES Download | TechSpot</a></li>
-<li><a href="https://www.youtube.com/watch?v=r5twUkvYFpA">Super ZSNES - GPU Powered SNES emulation is here! - YouTube</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区成员对原版 ZSNES 表达了怀旧之情，并对 GPU 重写版感到兴奋。一些人讨论了技术实现细节，如逐像素渲染与逐图块渲染的对比，并指出该项目可从社区贡献（如无损音频样本）中受益。
-
-**标签**: `#emulation`, `#retro gaming`, `#GPU computing`, `#SNES`
-
----
-
-<a id="item-11"></a>
-## [GitHub Copilot 转向按用量计费](https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/) ⭐️ 8.0/10
-
-GitHub 宣布 Copilot 将从固定月费订阅转为按用量计费模式，用户每月获得一定数量的 AI 积分，可充值或累积。此变更影响 Copilot Pro（每月 10 美元，含 10 美元积分）和 Pro+（每月 39 美元，含 39 美元积分）套餐。 此次定价转变结束了 Copilot 用户的补贴推理时代，可能增加重度用户的成本，并促使许多人评估 OpenRouter 或 DeepSeek 等替代方案。这反映了 AI 工具提供商转向按用量定价的行业趋势，以使成本与实际使用量相匹配。 新模型倍率从基础模型的 1 倍到 GPT-4 和 Sonnet 的 6 倍，最高达 Opus 的 27 倍，这意味着单个请求可能消耗大量积分。此前用户每月支付 10 美元即可获得价值数百美元的 Opus 使用量，但现在这种使用成本将大幅增加。
-
-hackernews · frizlab · Apr 27, 16:03
-
-**背景**: GitHub Copilot 是一款 AI 驱动的代码补全工具，可实时建议代码片段和函数。它于 2021 年推出，迅速受到开发者欢迎。原定价为固定月费，实际上补贴了 GPT-4 和 Claude Opus 等昂贵 AI 模型的重度使用。
-
-**社区讨论**: 社区情绪普遍负面，用户称这一变化对重度 Opus 用户是“50 倍涨价”，并质疑其价值主张。许多人考虑转向 OpenRouter 等按需付费提供商或 DeepSeek 等免费替代品，认为补贴推理时代已经结束。
-
-**标签**: `#GitHub Copilot`, `#pricing`, `#AI tools`, `#developer tools`, `#billing`
-
----
-
-<a id="item-12"></a>
-## [开源 CLI 智能体在 TerminalBench 上超越谷歌官方结果](https://github.com/dirac-run/dirac) ⭐️ 8.0/10
-
-一个名为 Dirac 的开源 CLI 智能体使用 Gemini-3-flash-preview 在 TerminalBench 上取得了 65.2%的分数，超过了谷歌官方智能体（47.8%）和此前排名第一的闭源模型 Junie CLI（64.3%）。 这一结果表明，精心设计的执行框架（harness）能显著提升 AI 智能体的性能，甚至超越官方实现和闭源竞争对手，凸显了开源创新在 AI 智能体开发中的重要性。 作者明确声明未使用任何作弊机制，智能体以符合排行榜要求的方式运行，且使用了完全开源版本。该智能体采用了哈希锚定编辑、基于 AST 的上下文获取以及批量操作等技术。
-
-hackernews · GodelNumbering · Apr 27, 12:35
-
-**背景**: TerminalBench 是一个评估 AI 智能体在命令行界面任务中表现的基准测试，测试其导航和操作真实环境的能力。Gemini-3-flash-preview 是谷歌于 2025 年 12 月发布的一款快速且成本效益高的模型。执行框架（harness）指的是控制智能体如何与环境交互并执行动作的软件框架。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://tessl.io/blog/terminal-bench-benchmarking-ai-agents-on-cli-tasks/">Terminal-Bench: Benchmarking AI Agents on CLI Tasks</a></li>
-<li><a href="https://blog.galaxy.ai/model/gemini-3-flash-preview">Gemini 3 Flash Preview Model Specs, Costs... | Galaxy.ai</a></li>
-<li><a href="https://junie.jetbrains.com/docs/agent-skills.html">Agent skills | Junie Documentation</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者赞扬了执行框架的改进，并指出缺乏跨模型泛化测试。有人对遥测数据发送到作者端点表示担忧，而其他人则建议与不同模型家族进行比较，以排除过拟合的可能性。
-
-**标签**: `#AI agents`, `#benchmarking`, `#open source`, `#CLI`, `#LLM`
-
----
-
-<a id="item-13"></a>
-## [最高法院权衡地理围栏搜查令合宪性](https://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html) ⭐️ 8.0/10
-
-美国最高法院于 2026 年 4 月 27 日听取了口头辩论，讨论警方要求科技公司提供手机位置数据的地理围栏搜查令是否违反第四修正案对不合理搜查的保护。 此案可能为数字隐私设立重要先例，影响执法机构从谷歌、苹果和优步等公司获取位置数据的方式，并可能重塑监控与隐私权之间的平衡。 谷歌于 2025 年停止响应地理围栏搜查令，将位置数据存储转移到用户设备上，但苹果、Lyft 和 Snapchat 等其他公司仍收到此类请求。法院的裁决将决定第三方数据共享是否消除了合理的隐私期望。
-
-hackernews · unethical_ban · Apr 27, 15:29
-
-**背景**: 地理围栏搜查令是一种要求公司识别特定时间段内特定地理区域内所有移动设备的搜查令。自 2018 年以来，此类搜查令的使用激增，谷歌的 Sensorvault 数据库是主要目标。第四修正案通常要求基于可能原因签发搜查令，但法院在将其适用于与第三方共享的数字数据时面临困难。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Geofence_warrant">Geofence warrant</a></li>
-<li><a href="https://www.theverge.com/2022/2/5/22918487/fbi-geofence-seattle-blm-protest-police-guild-attack">FBI used geofence warrant in Seattle after BLM protest attack,</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者注意到谷歌转向设备端存储是积极的隐私举措，但就第三方数据是否应失去隐私保护展开辩论。一些人将地理围栏搜查令比作警方查看监控录像，而另一些人则对监控范围和大法官明显的偏见表示担忧。
-
-**标签**: `#privacy`, `#surveillance`, `#supreme court`, `#geofencing`, `#tech policy`
-
----
-
-<a id="item-14"></a>
-## [微软开源带说话人分离的 VibeVoice](https://simonwillison.net/2026/Apr/27/vibevoice/#atom-everything) ⭐️ 8.0/10
-
-微软于 2026 年 1 月 21 日发布了 VibeVoice，这是一个采用 MIT 许可证的语音转文本模型，内置说话人分离功能。Simon Willison 展示了如何在 Mac 上使用 mlx-audio 运行该模型，在不到 9 分钟内转录了一段 99 分钟的播客。 这一开源发布使开发者能够使用先进的说话人感知转录功能，有望加速会议转录、播客分析和无障碍工具等应用。MIT 许可证鼓励广泛采用和社区贡献。 该模型需要大量内存，在 128GB M5 Max MacBook Pro 上预填充阶段峰值达 61.5GB。每次运行最多处理一小时音频；更长的录音需要分割并重叠以避免错误。
+微软于 2026 年 1 月 21 日发布了 VibeVoice，这是一个采用 MIT 许可证的语音转文本模型，内置说话人分离功能。Simon Willison 演示了在 Mac 上使用 mlx-audio 和 4 位量化 MLX 转换版本运行该模型，在 8 分 45 秒内转录了一段 99.8 分钟的播客。 VibeVoice 将语音转文本和说话人分离整合到单一模型中，无需单独的流水线，减少了处理时间。其 MIT 许可证和便捷的一行命令用法降低了开发者集成高级转录功能的门槛。 完整模型大小为 17.3GB，可在 Hugging Face 上获取；4 位 MLX 转换版本（5.71GB）可在 16GB 以上内存的 Apple Silicon 上运行。该模型每次处理最多 60 分钟音频，输出包含文本、时间戳和说话人 ID 的 JSON。
 
 rss · Simon Willison · Apr 27, 23:46
 
-**背景**: 说话人分离用于识别音频流中“谁在何时说话”，将语音按说话人身份分割成片段。传统系统将转录和分离分为不同的流水线，而 VibeVoice 将两者集成到单个模型中，简化了部署。MLX 是苹果针对 Apple Silicon 优化的机器学习框架，mlx-audio 提供了基于它的音频处理工具。
+**背景**: 说话人分离用于识别音频录音中谁在何时说话。传统方法需要单独的模型进行转录和分离，增加了复杂性和资源消耗。VibeVoice 是一种类似 Whisper 的模型，联合执行这两项任务，类似于 OpenAI 的 Whisper 但增加了分离功能。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://github.com/Blaizzy/mlx-audio">GitHub - Blaizzy/ mlx - audio : A text-to-speech (TTS), speech-to-text...</a></li>
+<li><a href="https://huggingface.co/mlx-community/VibeVoice-ASR-4bit">mlx-community/VibeVoice-ASR-4bit · Hugging Face</a></li>
+<li><a href="https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-asr.md">VibeVoice/docs/vibevoice-asr.md at main · microsoft/VibeVoice</a></li>
 
 </ul>
 </details>
 
-**标签**: `#speech-to-text`, `#open-source`, `#machine learning`, `#Microsoft`, `#audio processing`
+**社区讨论**: 评论褒贬不一：有人称赞 VibeVoice 的可靠性和内置分离功能，也有人批评其速度慢、资源占用高且容易产生幻觉。此外，关于是否应称其为“开源”存在争议，因为训练代码是专有的；还有人希望出现一个能彻底击败 Whisper 的模型。
+
+**标签**: `#speech-to-text`, `#open-source`, `#Microsoft`, `#AI/ML`, `#speaker diarization`
+
+---
+
+<a id="item-6"></a>
+## [OpenAI 与微软的 AGI 条款在多年争议后被移除](https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything) ⭐️ 8.0/10
+
+2026 年 4 月 27 日，OpenAI 和微软宣布修订协议，移除了 AGI 条款，该条款此前规定一旦实现 AGI，微软的知识产权将失效。 这一变化消除了最具影响力的 AI 合作关系中的重大治理不确定性，可能加速先进 AI 的商业化，而无需 AGI 触发条件。 AGI 条款从模糊定义演变为 1000 亿美元利润门槛，再到独立专家小组验证，最终被完全移除。
+
+rss · Simon Willison · Apr 27, 18:38
+
+**背景**: AGI 条款是 2019 年 OpenAI 与微软原始合作的一部分，旨在确保 AGI 惠及全人类而非被商业独占。随着时间的推移，AGI 的定义变得有争议，据报道曾以 1000 亿美元利润作为财务定义。该条款的移除反映了向更灵活合作条款的转变。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract">Microsoft and OpenAI's famed AGI agreement is dead - The Verge</a></li>
+<li><a href="https://openai.com/index/next-phase-of-microsoft-partnership/">The next phase of the Microsoft OpenAI partnership</a></li>
+<li><a href="https://techcrunch.com/2024/12/26/microsoft-and-openai-have-a-financial-definition-of-agi-report/">Microsoft and OpenAI have a financial definition of AGI ... | TechCrunch</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 未提供社区讨论，但根据文章的高分和标签，该话题在 AI 治理圈内广泛讨论，有人赞赏清晰度，也有人担心失去 AGI 保障。
+
+**标签**: `#AGI`, `#OpenAI`, `#Microsoft`, `#AI governance`, `#intellectual property`
+
+---
+
+<a id="item-7"></a>
+## [杀虫剂导致美国蝴蝶数量下降 22%](https://www.solidot.org/story?sid=84162) ⭐️ 8.0/10
+
+2025 年 3 月发表在《科学》期刊上的一项研究发现，从 2000 年到 2020 年，美国蝴蝶数量下降了 22%，其中 24 个物种下降 90%或更多，主要原因归咎于杀虫剂的使用。 这项研究提供了强有力的科学证据，将杀虫剂使用与昆虫崩溃联系起来，对生物多样性、生态系统健康和农业实践具有重大影响。 生态学家 Matt Forister 团队分析了 336 株植物，只有 22 株未检测到农药残留；71 株植物的农药浓度对蝴蝶致命或接近致命。2022 年的一项研究发现，乳草植物平均每株含有 12.2 种杀虫剂。
+
+rss · Solidot · Apr 27, 12:45
+
+**背景**: Xerces 无脊椎动物保护协会以已灭绝的加州蝴蝶命名，致力于保护对生物多样性至关重要的无脊椎动物。自 20 世纪 60 年代滴滴涕及后来的混合杀虫剂以来，杀虫剂一直与昆虫数量下降有关。该研究强调了植物（包括苗圃出售的植物）的广泛污染。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Xerces_Society_for_Invertebrate_Conservation">Xerces Society for Invertebrate Conservation</a></li>
+<li><a href="https://www.unr.edu/nevada-today/news/2016/forister-butterflies">Common ag insecticides associated with sharp decline in California butterfly populations | University of Nevada, Reno</a></li>
+<li><a href="https://www.kolotv.com/2021/03/08/want-to-save-butterflies-use-less-pesticide-unr-study-says/">Want to save butterflies? Use less pesticide, UNR study says</a></li>
+
+</ul>
+</details>
+
+**标签**: `#ecology`, `#pesticides`, `#biodiversity`, `#insect decline`, `#environmental science`
+
+---
+
+<a id="item-8"></a>
+## [阿里平头哥发布国内首款内置 PCIe Switch 的 400G 智能网卡](https://www.ithome.com/0/944/650.htm) ⭐️ 8.0/10
+
+阿里平头哥发布了“磐脉 920”，这是国内首款内置 PCIe Switch 的 400G 智能网卡，目前已部署在阿里云数据中心，用于解决 AI 通信瓶颈问题。 这款智能网卡解决了限制 AI 训练效率的“通信墙”问题，将系统成本降低 30%，并为大规模 AI 模型提供更高的有效算力。 磐脉 920 支持 PCIe 5.0、112G PAM4 以太网、400Gbps 吞吐量和 400Mpps 包处理能力，具备多路径 RDMA 和芯片级网络架构，内置 PCIe Switch 以实现低延迟的 GPU/SSD 连接。
+
+rss · IThome 日报 · Apr 28, 10:41
+
+**背景**: 智能网卡将网络处理从 CPU 卸载以提高性能。PCIe Switch 允许多个设备共享 PCIe 通道，降低延迟和成本。RDMA 实现计算机间的直接内存访问，对 AI 训练至关重要。2026 年 3 月中国日均 Token 调用量突破 140 万亿，推动了对更快网络的需求。
+
+**标签**: `#SmartNIC`, `#AI Infrastructure`, `#Networking`, `#PCIe Switch`, `#Alibaba`
+
+---
+
+<a id="item-9"></a>
+## [Ubuntu AI 功能确认为可选，可通过移除 Snap 卸载](https://www.phoronix.com/news/Ubuntu-AI-Kill-Switch-Opt-In) ⭐️ 8.0/10
+
+Canonical 工程副总裁澄清，Ubuntu 即将推出的 AI 功能将是可选的，并且可以通过卸载 Snap 包来移除，回应了最初公告后的社区强烈反对。 这一澄清安抚了担心强制 AI 集成的用户，维护了 Ubuntu 在 Linux 生态系统中以用户控制和透明度著称的声誉。 AI 功能（包括 Qwen 和 DeepSeek 等本地模型）将通过 Snap 包提供，用户只需移除这些 Snap 即可选择退出。
+
+rss · Phoronix · Apr 28, 10:25
+
+**背景**: Snap 是 Canonical 为 Linux 系统开发的通用包格式。社区历来批评 Snap 专有且缓慢，因此将其用于 AI 功能引发了关于强制采用的担忧。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.omgubuntu.co.uk/2026/04/ubuntu-ai-features">Ubuntu is Getting AI Features in 2026 – Here's What's Planned</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Snap_(software)">Snap (software) - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区反应不一：一些人赞赏可选性的澄清，而另一些人仍对 Snap 的角色以及 Ubuntu 中 AI 的整体方向持怀疑态度。
+
+**标签**: `#Ubuntu`, `#AI`, `#Linux`, `#Canonical`, `#Snap`
+
+---
+
+<a id="item-10"></a>
+## [Linux 7.1 主线内核为 ARM 添加原生实时支持](https://www.phoronix.com/news/Linux-7.1-ARM-RT) ⭐️ 8.0/10
+
+Linux 7.1 主线内核现在允许为 ARM 架构构建实时 PREEMPT_RT 内核，无需任何外部补丁。 这一集成消除了为 ARM 实时支持维护外部补丁的负担，惠及依赖 ARM 处理器的嵌入式系统和物联网设备。 该支持适用于 32 位 ARM 架构；PREEMPT_RT 此前已于 2024 年 9 月合并到 x86 等架构的主线内核中。
+
+rss · Phoronix · Apr 27, 13:27
+
+**背景**: PREEMPT_RT 是 Linux 内核的一项功能，提供硬实时和软实时计算能力。它最初以一组外部补丁的形式维护多年，后来逐步合并到主线内核中。ARM 架构广泛用于对实时性能要求苛刻的嵌入式系统。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.phoronix.com/news/Linux-7.1-ARM-RT">With Linux 7.1 The Mainline Kernel Now Supports Real-Time "RT" On ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/PREEMPT_RT">PREEMPT_RT - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Linux`, `#ARM`, `#Real-Time`, `#Kernel`, `#Embedded`
+
+---
+
+<a id="item-11"></a>
+## [LocalSend：开源跨平台 AirDrop 替代品](https://github.com/localsend/localsend) ⭐️ 7.0/10
+
+LocalSend 是一款免费开源应用，通过本地网络（无需互联网）实现附近设备间的安全文件共享，采用 REST API 和 HTTPS 加密。 它提供了注重隐私、去中心化的替代方案，可替代 AirDrop 等专有方案，支持 Android、iOS、Windows、macOS 和 Linux 跨平台，对寻求无需外部服务器的跨平台文件共享用户意义重大。 LocalSend 要求设备处于同一本地 Wi-Fi 网络，而 AirDrop 可自建临时网络。它使用动态生成的 TLS/SSL 证书保障安全，无需注册或提供个人信息。
+
+hackernews · bilsbie · Apr 28, 11:54
+
+**背景**: AirDrop 是苹果的专有无线文件共享功能，利用蓝牙和 Wi-Fi 建立直接点对点连接。LocalSend 是众多开源跨平台替代方案之一，但多数要求共享本地网络，限制了在无现有基础设施场景下的使用。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/localsend/localsend">GitHub - localsend/localsend: An open-source cross-platform ... File Transfer System | localsend/localsend | DeepWiki LocalSend - Easy File Sharing Between Linux and Windows Wireless File Sharing » Linux Magazine LocalSend: Share Files and Messages on the Local Network LocalSend Download | TechSpot</a></li>
+<li><a href="https://localsend.org/">LocalSend: Share files to nearby devices</a></li>
+<li><a href="https://deepwiki.com/localsend/localsend/2.2-file-transfer-system">File Transfer System | localsend/localsend | DeepWiki</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 评论者指出，LocalSend 依赖共享本地网络是与 AirDrop 相比的关键限制，后者可自建网络。有人建议使用 PairDrop（基于浏览器，可跨局域网）和 Sendme（利用 Iroh 中继）等替代方案来弥补这一不足。
+
+**标签**: `#open-source`, `#file-sharing`, `#cross-platform`, `#AirDrop-alternative`
+
+---
+
+<a id="item-12"></a>
+## [OpenAI CEO 的身份验证公司伪造与布鲁诺·马斯的合作](https://www.vice.com/en/article/openai-ceo-identity-verification-company-fake-bruno-mars-partnership-mistaken-identity/) ⭐️ 7.0/10
+
+由 OpenAI CEO Sam Altman 联合创立的身份验证公司 Tools For Humanity 错误地宣布了与歌手布鲁诺·马斯的虚假合作，随后澄清实际合作对象是 Thirty Seconds to Mars。 这一事件凸显了一家以信任和身份验证为核心的公司却在基本身份核查上失误的讽刺性，引发了对 AI 时代此类系统可靠性的质疑。 虚假公告被归因于身份混淆，公司将布鲁诺·马斯与乐队 Thirty Seconds to Mars 弄混。Tools For Humanity 尚未披露错误的具体原因。
+
+hackernews · BoggleOhYeah · Apr 28, 13:26
+
+**背景**: Tools For Humanity 以其 Worldcoin 项目闻名，该项目通过虹膜扫描验证人类身份并分发加密货币。公司的使命是在数字交互中建立信任，因此这一错误尤为尴尬。
+
+**社区讨论**: 评论者认为这一情况极具讽刺意味，有人指出一家以信任为服务的公司犯了如此基本的错误。另一位建议采用去中心化验证作为替代方案，还有一位开玩笑说 AI“幻觉”出了这次合作。
+
+**标签**: `#identity verification`, `#OpenAI`, `#AI trust`, `#irony`, `#tech news`
+
+---
+
+<a id="item-13"></a>
+## [GitHub Copilot 代码审查将消耗 Actions 分钟数](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/) ⭐️ 7.0/10
+
+自 2026 年 6 月 1 日起，GitHub Copilot 代码审查将计入 GitHub Actions 分钟数使用量，影响所有付费计划用户。该变更于 2026 年 4 月 27 日通过 GitHub Changelog 宣布。 这一政策变化增加了使用 Copilot 代码审查的总成本，可能促使用户重新考虑对 GitHub 生态系统的依赖。同时引发了关于供应商锁定和参与度指标透明度的担忧。 目前 GitHub Copilot 代码审查不消耗额外分钟数，但 2026 年 6 月 1 日后，每次审查将消耗账户的 Actions 配额分钟数。免费套餐用户在公共仓库中可能仍享有免费分钟数，但私有仓库使用将产生费用。
+
+hackernews · whtsky · Apr 28, 09:01
+
+**背景**: GitHub Actions 提供 CI/CD 和自动化功能，每月有免费分钟数配额（例如 Team 计划为 3000 分钟）。Copilot 代码审查是一项 AI 驱动的功能，可自动审查拉取请求。此前该功能不消耗 Actions 分钟数，但 GitHub 现在将其视为可计费操作。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/">GitHub Copilot code review will start consuming GitHub ...</a></li>
+<li><a href="https://docs.github.com/en/billing/concepts/product-billing/github-actions">GitHub Actions billing - GitHub Docs</a></li>
+<li><a href="https://docs.github.com/en/get-started/learning-about-github/githubs-plans">An overview of GitHub 's pricing plans.</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社区评论表达了沮丧和怀疑：一些用户指出 Copilot 审查会夸大 PR 参与度指标，而另一些人则认为这是 AI 补贴收紧的信号。部分用户因成本和可靠性问题，正在考虑迁移到本地模型或其他平台。
+
+**标签**: `#GitHub`, `#Copilot`, `#GitHub Actions`, `#AI code review`, `#pricing`
+
+---
+
+<a id="item-14"></a>
+## [互动工具揭示个人蓝绿界限差异](https://ismy.blue/) ⭐️ 7.0/10
+
+一个新互动网站 ismy.blue 让用户通过调整颜色滑块来找出自己区分蓝色和绿色的界限，并将其结果与人口平均值进行比较。 该工具凸显了颜色感知的主观性，并引发关于我们如何对颜色进行分类的文化和个体差异的讨论，这对设计、沟通和理解人类认知具有重要意义。 该测试呈现一系列色块，要求用户将每个色块分类为蓝色或绿色，使用二选一的方法来精确确定其界限。该网站报告平均界限在某个特定色调附近，但个体结果差异很大。
+
+hackernews · theogravity · Apr 27, 20:24
+
+**背景**: 颜色感知并非普遍一致；它受生物学、语言和文化的影响。例如，有些语言用同一个词表示蓝色和绿色，而其他语言则明确区分它们。该工具探索了蓝色和绿色之间的界限，这是一个许多人意见不一的区域。
+
+**社区讨论**: 评论者分享了与家人关于颜色分歧的个人轶事，一些人报告了技术问题（Firefox 中显示空白屏幕）。几位用户指出了锚定效应，即选择顺序会影响最终界限，并建议对于模糊的青绿色/蓝绿色调，替代标签应为“不是蓝色”而非“绿色”。
+
+**标签**: `#color perception`, `#interactive`, `#psychology`, `#culture`, `#visualization`
 
 ---
 
 <a id="item-15"></a>
-## [微软与 OpenAI 移除 AGI 条款](https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-everything) ⭐️ 8.0/10
+## [WASM 并非栈式机器](https://purplesyringa.moe/blog/wasm-is-not-quite-a-stack-machine/) ⭐️ 7.0/10
 
-2026 年 4 月 27 日，OpenAI 和微软宣布从合作协议中移除 AGI 条款，该条款原本规定一旦实现 AGI，微软的知识产权将失效。 这一变化移除了将 AGI 定义与商业利润挂钩的关键治理机制，可能加速 OpenAI 技术的商业化，并重塑两家公司之间的权力平衡。 该条款最初将 AGI 定义为能够产生 1000 亿美元利润的系统，后来改为由独立专家小组验证；移除意味着微软无限期保留知识产权。
+一篇技术深度文章指出，由于验证约束，WebAssembly 的操作数栈与传统栈式机器有本质区别，这种约束使得单遍分析和 S-表达式表示成为可能。 这挑战了关于 WASM 架构的常见假设，通过揭示 WASM 更接近结构化中间表示而非经典栈式机器，影响了编译器设计和虚拟机实现。 验证器是线性时间、单遍的，没有数据流合并；每个 block、loop 和 if 都带有函数类型签名，block 入口处的操作数栈必须匹配参数类型，出口处必须匹配结果类型。
 
-rss · Simon Willison · Apr 27, 18:38
+hackernews · signa11 · Apr 28, 04:34
 
-**背景**: AGI 条款是微软与 OpenAI 合作中的独特设计，旨在确保如果 OpenAI 实现 AGI，微软不会拥有独家商业权利。随着时间的推移，AGI 的定义从模糊概念演变为基于利润的指标，再到专家验证。移除该条款反映了 OpenAI 寻求更多独立性和云合作灵活性的努力。
+**背景**: WebAssembly (WASM) 是一种二进制指令格式，设计为可移植的编译目标。它常被描述为基于栈的虚拟机，但本文认为其操作数栈受验证规则约束，使其行为更像结构化控制流图。文本格式 WAT 使用 S-表达式来表示 WASM 模块。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/">Tracking the history of the now-deceased OpenAI Microsoft AGI ...</a></li>
-<li><a href="https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract">Microsoft and OpenAI’s famed AGI agreement is dead | The Verge</a></li>
-<li><a href="https://the-decoder.com/openai-and-microsoft-rewrite-their-deal-no-more-exclusivity-no-more-agi-clause/">OpenAI and Microsoft rewrite their deal: no more exclusivity, no more AGI clause</a></li>
+<li><a href="https://webassembly.github.io/spec/core/appendix/algorithm.html">Validation Algorithm — WebAssembly 3.0 (2026-04-24)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/WebAssembly">WebAssembly - Wikipedia</a></li>
+<li><a href="https://www.packtpub.com/en-gb/learning/how-to-tutorials/the-elements-of-webassembly-wat-and-wasm-explained-tutorial">The elements of WebAssembly - Wat and Wasm, explained [Tutorial]</a></li>
 
 </ul>
 </details>
 
-**标签**: `#OpenAI`, `#Microsoft`, `#AGI`, `#AI governance`, `#intellectual property`
+**社区讨论**: 评论者一致认为 WASM 的栈不寻常；有人指出验证器的线性时间、单遍约束赋予了栈其形状。另一位正在实现 WASM 到 C 编译器的开发者发现，这种栈行为保证了表达式构建而无需丢弃值。一些人争论缺少 dup 和 rot 等栈操作指令是缺陷还是有意为之。
+
+**标签**: `#WebAssembly`, `#compilers`, `#virtual machines`, `#programming languages`
 
 ---
 
 <a id="item-16"></a>
-## [Zig 0.16.0 通过 Io 接口引入结构化并发](https://lwn.net/Articles/1068409/) ⭐️ 8.0/10
+## [苹果 Vision Pro 辅助白内障手术实现 3D 可视化](https://www.ithome.com/0/944/705.htm) ⭐️ 7.0/10
 
-Zig 0.16.0 扩展了新的 Io 接口，提供了 async() 和 concurrent() 函数，返回带有 await() 和 cancel() 方法的 Future 对象，实现了结构化并发。 该设计为其他语言的隐式异步模型提供了一种显式且冗长的替代方案，可能减少取消操作带来的错误，并在系统编程中改善资源清理控制。 async() 函数可以在另一个线程中同时运行回调，而 concurrent() 必须在另一个线程中运行。Future 方法是幂等的，允许安全地多次调用 await() 或 cancel()。
+2025 年 10 月，SightMD 的埃里克·罗森伯格医生使用苹果 Vision Pro 完成了首例白内障手术，此后又借助 ScopeXR 平台完成了数百例同类手术，该平台将 3D 数字显微镜图像实时传输到头显中。 这标志着空间计算在医疗领域的一个里程碑，使外科医生能够查看 3D 手术区域并叠加诊断数据，同时支持实时远程协作，有望让专家手术指导惠及更多患者。 罗森伯格医生开发的 ScopeXR 平台将数字手术显微镜的实时 3D 图像传输到 Vision Pro，叠加术前数据，并允许远程外科医生看到完全相同的画面进行协作。
 
-rss · LWN.net · Apr 27, 13:52
+rss · IThome 日报 · Apr 28, 15:18
 
-**背景**: 结构化并发确保并发任务限定在父作用域内，防止线程泄露并改进错误传播。Zig 的方法显式传递 Io 接口，类似于其分配器 API，与 Rust 的隐式异步模型形成对比，后者在取消操作方面曾遇到问题。
+**背景**: 白内障手术是摘除眼睛浑浊晶状体的常见手术。传统显微镜提供 2D 视野，而 3D 数字显微镜能增强深度感知。像 Vision Pro 这样的空间计算头显可以集成此类图像、数据叠加和远程协作，但其高昂成本和笨重设计限制了消费级普及，促使苹果转向专业应用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Structured_concurrency">Structured concurrency</a></li>
-<li><a href="https://kristoff.it/blog/zig-new-async-io/">Zig's New Async I/O | Loris Cro's Blog</a></li>
+<li><a href="https://www.mactech.com/2026/04/27/surgeon-performs-cataract-surgery-using-the-apple-vision-pro/">Surgeon Performs Cataract Surgery Using the Apple... - MacTech.com</a></li>
+<li><a href="https://scopexr.com/">scopexr .com</a></li>
+<li><a href="https://www.eos-intelligence.com/implicium/med-tech/spatial-computing-in-healthcare-moves-from-hype-to-real-surgical-use/">Spatial Computing in Healthcare Moves from Hype to Real ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Zig`, `#structured concurrency`, `#systems programming`, `#asynchronous`
+**标签**: `#Apple Vision Pro`, `#spatial computing`, `#medical technology`, `#surgery`, `#remote collaboration`
 
 ---
 
 <a id="item-17"></a>
-## [MiMo-V2.5-Pro：开源 AI 模型挑战 Claude Opus](https://huggingface.co/XiaomiMiMo/MiMo-V2.5-Pro) ⭐️ 8.0/10
+## [《财富》：AI 成本常高于人力](https://www.ithome.com/0/944/658.htm) ⭐️ 7.0/10
 
-小米发布了 MiMo-V2.5-Pro，这是一个采用 MIT 许可证的开源 AI 模型，据报道其性能可与 Claude Opus 相媲美，尤其在编码和长上下文任务方面表现出色。 此次发布通过提供高质量的开源模型，显著推动了开源 AI 的发展，该模型可在本地运行且不受企业限制，有望使尖端 AI 能力更加普及。 MiMo-V2.5-Pro 拥有超过 1 万亿总参数，支持 100 万 token 的上下文长度，在 GDPval-AA 基准测试中 Elo 得分为 1426，超越了众多同类模型。
+《财富》杂志报道称，当前使用人工智能通常比雇佣人类员工更昂贵，引用了英伟达副总裁 Bryan Catanzaro 和麻省理工学院的研究，该研究显示 AI 仅在 23% 的视觉相关岗位中具有成本优势。 这挑战了 AI 将立即降低劳动力成本的普遍假设，迫使企业重新评估其 AI 投资，并可能减缓采用速度，直到成本下降。 尽管没有明确的生产力提升，大型科技公司在 2025 年已向 AI 投资 7400 亿美元，比 2024 年增长 69%。但专家预测，大语言模型的推理成本在未来四年内可能下降 90% 以上。
 
-reddit · r/LocalLLaMA · Namra_7 · Apr 27, 17:57
+rss · IThome 日报 · Apr 28, 11:08
 
-**背景**: 像 Claude Opus 这样的大型语言模型通常是专有的，需要云端访问。采用 MIT 等宽松许可证的开源模型允许任何人下载、修改并在本地运行，从而减少对商业 API 的依赖，并支持私密、可定制的 AI 应用。
+**背景**: AI 成本悖论指的是部署 AI 系统（包括硬件、能源和运营成本）在许多任务上往往超过人力成本的情况。这与 AI 将取代工作并降低费用的说法相悖。麻省理工学院的研究和行业专家指出，对于大多数视觉任务，人类仍然更具成本效益。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://firethering.com/mimo-v2-5-pro-xiaomi-coding-model/">MiMo-V2.5-Pro: A Coding Model Taking On Claude Opus 4.6 and</a></li>
-<li><a href="https://artificialanalysis.ai/articles/mimo-v2-pro-everything-you-need-to-know">MiMo-V2-Pro: Everything you need to know</a></li>
-<li><a href="https://www.anthropic.com/claude/opus">Claude Opus 4.7 \ Anthropic</a></li>
+<li><a href="https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/human-employees-often-cost-less-than-ai/">Human Employees Often Cost Less Than AI | Armstrong Economics</a></li>
+<li><a href="https://www.axios.com/2026/04/26/ai-cost-human-workers">AI can cost more than human workers now</a></li>
+<li><a href="https://fortune.com/2026/03/10/ai-productivity-workers-workday-efficiency/">The AI productivity paradox: More work, not less - Fortune</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反应热烈，许多人称赞该模型的质量和 MIT 许可证。一些用户指出它在推理和长上下文方面表现出色，但在编码代理方面较弱。硬件需求是一个问题，因为运行完整模型需要多块高端 GPU。
-
-**标签**: `#AI`, `#open-source`, `#LLM`, `#machine learning`, `#model release`
+**标签**: `#AI economics`, `#cost analysis`, `#labor market`, `#AI adoption`
 
 ---
 
 <a id="item-18"></a>
-## [Asahi Linux 对苹果 M3 芯片的适配接近 Alpha 水平](https://asahilinux.org/) ⭐️ 8.0/10
+## [Ubuntu 26.04 LTS 在创作者工作站基准测试中超越 Windows 11](https://www.phoronix.com/review/ubuntu-2604-windows-11) ⭐️ 7.0/10
 
-Asahi Linux 已实现对苹果 M3、M3 Pro 和 M3 Max 芯片的接近 Alpha 级别的支持，启用了内部 SSD、屏幕、键盘、触控板、PCIe 和蓝牙音频等基本硬件功能，但 GPU 加速仍未实现。 这标志着将 Linux 移植到 Apple Silicon 的重要里程碑，扩展了 ARM Linux 生态系统，并为用户在最新的 Mac 硬件上提供了替代操作系统。 GPU 硬件加速仍然缺失，图形渲染目前由 CPU 软件处理；此外，项目正在将 m1n1 引导加载程序迁移到 Rust 语言以提高安全性和可维护性，并已在 M4 和 M5 芯片上完成了基础引导测试。
+Phoronix 发布了基准测试结果，显示在搭载 AMD Ryzen Threadripper PRO 9975WX 和 NVIDIA RTX PRO 6000 Max-Q 的高端 HP Z6 G5 A 工作站上，Ubuntu 26.04 LTS 的性能优于 Windows 11 Pro。 这一对比为创作者和专业人员在为高性能工作站工作负载选择 Linux 还是 Windows 时提供了宝贵数据，凸显了 Ubuntu 在多线程和 GPU 加速任务中的潜在优势。 测试系统使用了 AMD Ryzen Threadripper PRO 9975WX（32 核 64 线程）、8 通道 DDR5-5600 内存和 NVIDIA RTX PRO 6000 Max-Q GPU。基准测试专注于渲染、视频编码和 3D 建模等创作者工作负载。
 
-telegram · zaihuapd · Apr 27, 02:08
+rss · Phoronix · Apr 28, 15:00
 
-**背景**: Asahi Linux 是一个社区驱动的项目，通过逆向工程未公开的硬件将 Linux 移植到 Apple Silicon Mac。该项目于 2022 年 3 月发布了针对 M1 设备的首个 Alpha 安装程序，此后逐步扩展了对新芯片的支持。Fedora Asahi Remix 是旗舰发行版，在 Apple 硬件上提供完整的 Linux 体验。
+**背景**: Ubuntu 26.04 LTS 是流行 Linux 发行版的最新长期支持版本，而 Windows 11 Pro 是微软面向专业用途的旗舰操作系统。Phoronix Test Suite 是一款广泛使用的开源基准测试工具，支持 Linux 及其他平台。本次对比是 HP Z6 G5 A 工作站全面评测的一部分。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Asahi_linux_project">Asahi linux project</a></li>
-<li><a href="https://asahilinux.org">Asahi Linux</a></li>
+<li><a href="https://www.amd.com/en/products/processors/workstations/ryzen-threadripper/9000-wx-series/amd-ryzen-threadripper-pro-9975wx.html">AMD Ryzen™ Threadripper™ PRO 9975WX</a></li>
+<li><a href="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000-max-q/">RTX PRO 6000 Blackwell Max - Q Workstation Edition | NVIDIA</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Asahi Linux`, `#Apple M3`, `#Linux on ARM`, `#open source`, `#hardware support`
+**标签**: `#Ubuntu`, `#Windows 11`, `#benchmark`, `#workstation`, `#Linux performance`
 
 ---
 
 <a id="item-19"></a>
-## [小米玄戒 O1 芯片出货量突破 100 万颗](https://weibo.com/1997509257/5292279283585125) ⭐️ 8.0/10
+## [AMD Lemonade SDK 10.3 移除 Electron，体积缩小 10 倍](https://www.phoronix.com/news/AMD-Lemonade-10.3) ⭐️ 7.0/10
 
-小米在投资者日上宣布，自研的 3nm 玄戒 O1 芯片出货量已超过 100 万颗，后续自研芯片将应用于小米汽车，并计划每年推出升级版本。 这一里程碑标志着小米在自研芯片领域取得重大进展，挑战了既有厂商，并可能重塑半导体格局，尤其是在汽车应用方面。 小米自研大芯片项目自 2021 年重启，计划 10 年投入至少 500 亿元，截至 2025 年 4 月底，玄戒研发投入已超 135 亿元。
+AMD 发布了 Lemonade SDK 10.3 版本，通过移除 Electron 框架，将二进制文件体积缩小了 10 倍，最终包大小不到 10 MB。 这一优化使 Lemonade 在本地 AI 推理时更加轻量高效，有利于开发者在资源受限的设备上部署 AI，并提升了跨平台的可移植性。 体积缩减是通过用原生或更轻量的替代方案替换基于 Electron 的界面实现的，同时保留了在 AMD CPU、GPU 和 NPU 上跨 Windows 和 Linux 进行本地 AI 服务的全部功能。
 
-telegram · zaihuapd · Apr 27, 05:50
+rss · Phoronix · Apr 28, 14:35
 
-**背景**: 3nm 制程是领先的半导体制造节点，相比前代节点可提供更高的晶体管密度、更好的性能和更低的功耗。小米玄戒 O1 是采用这一先进制程的自研芯片，表明公司减少对外部供应商依赖、在高端芯片设计领域竞争的雄心。
+**背景**: Electron 是一个允许使用 HTML、CSS 和 JavaScript 等 Web 技术构建桌面应用的框架，但它捆绑了完整的 Chromium 浏览器和 Node.js，导致二进制文件体积庞大。Lemonade 是由 AMD 支持的开源本地 AI 服务器，针对 AMD 硬件进行了优化，并设计为易于集成到应用程序中。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://zh.wikipedia.org/zh-hans/3納米制程">3纳米制程 - 维基百科，自由的百科全书</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Electron_(software_framework)">Electron (software framework ) - Wikipedia</a></li>
+<li><a href="https://lemonade-server.ai/">Lemonade: Local AI for Text, Images, and Speech</a></li>
 
 </ul>
 </details>
 
-**标签**: `#semiconductor`, `#Xiaomi`, `#chip design`, `#3nm`, `#automotive`
+**标签**: `#AMD`, `#AI SDK`, `#Electron`, `#optimization`, `#open-source`
 
 ---
 
 <a id="item-20"></a>
-## [Easyduino：面向 KiCad 的开源 PCB 开发板设计](https://github.com/Hanqaqa/Easyduino) ⭐️ 7.0/10
+## [德国主权技术局启动开放标准资助计划](https://www.phoronix.com/news/Sovereign-Tech-Standards) ⭐️ 7.0/10
 
-Easyduino 是一个新的开源 GitHub 仓库，为 Arduino UNO、ESP32 和 Raspberry Pi Pico 等流行的微控制器开发板提供 KiCad PCB 设计，方便爱好者和教育者学习 PCB 设计。 该项目通过提供经过验证的开源模板，降低了学习 PCB 设计的门槛，这些模板可以修改和重用，从而促进硬件开发的实践教育和创新。 该仓库包含 Arduino UNO、Arduino Nano、ESP32、ESP32-S3、Raspberry Pi Pico (RP2040)和 STM32 Bluepill 的设计，全部统一在 KiCad 中，支持 USB-C，并采用针对 JLCPCB 制造优化的 4 层铜堆叠。
+德国主权技术局宣布了一项名为“Sovereign Tech Standards”的新计划，将为从事开放标准实施的维护者和开发者提供每月 4800 至 5200 欧元的固定资助。 该计划解决了开放标准工作长期资金不足的问题，而开放标准对软件互操作性和数字主权至关重要。它可能为其他政府资助开源基础设施提供范例。 每月资助金额在 4800 至 5200 欧元之间，针对专门从事开放标准实施的维护者和开发者。该计划基于主权技术局自 2022 年以来资助开源项目的既有经验。
 
-hackernews · Hanqaqa · Apr 27, 17:45
+rss · Phoronix · Apr 28, 13:35
 
-**背景**: KiCad 是一个免费的开源电子设计自动化（EDA）套件，用于原理图绘制和 PCB 布局。从头开始设计定制 PCB 对初学者来说可能令人生畏，因为它需要了解元件放置、布线以及制造约束。Easyduino 提供了现成的参考设计，展示了最佳实践，使学习者能够从一块可工作的板子开始，并根据自己的项目进行修改。
+**背景**: 主权技术局是德国于 2022 年 10 月成立的公共组织，旨在通过资助关键开源软件基础设施来维护数字主权。它是德国联邦突破创新局的子公司，受联邦经济事务和气候行动部委托。开放标准是确保软件互操作性的技术规范，但其开发和维护往往缺乏可持续的资金支持。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/Hanqaqa/Easyduino">GitHub - Hanqaqa/Easyduino: Eaily dive into different PCB ...</a></li>
-<li><a href="https://www.build-electronic-circuits.com/kicad-tutorial/">KiCad Tutorial: Make Your First Printed Circuit Board</a></li>
-<li><a href="https://ecosistemastartup.com/easyduino-pcbs-open-source-para-arduino-y-esp32-en-kicad/">Easyduino: PCBs open-source para Arduino y ESP32 en KiCad</a></li>
+<li><a href="https://www.phoronix.com/news/Sovereign-Tech-Standards">Sovereign Tech Agency Launches New Initiative To Help... - Phoronix</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sovereign_Tech_Agency">Sovereign Tech Agency</a></li>
+<li><a href="https://www.sovereign.tech/">Home | Sovereign Tech Agency</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反响非常积极，用户称赞该项目是填补开源开发板设计空白的绝佳资源。一些用户分享了自己设计类似板子的经验，而另一些用户则询问如何向儿童介绍 PCB 设计，显示出浓厚的教育兴趣。
-
-**标签**: `#PCB design`, `#KiCad`, `#Arduino`, `#open source hardware`, `#education`
+**标签**: `#open-source`, `#open-standards`, `#funding`, `#Germany`, `#software-sustainability`
 
 ---
 
 <a id="item-21"></a>
-## [macOS 27 将强制 TLS 1.2，弃用 AFP 用于 Time Machine](https://eclecticlight.co/2026/04/23/networking-changes-coming-in-macos-27/) ⭐️ 7.0/10
+## [GCC 16 改进错误信息，新增实验性 HTML 输出](https://www.phoronix.com/news/GCC-16-Error-Messages) ⭐️ 7.0/10
 
-macOS 27 将要求某些网络连接使用 TLS 1.2，并弃用 Apple Filing Protocol (AFP) 用于 Time Machine 备份，推动用户改用 SMB。 这一变化通过强制使用现代加密标准增强了安全性，并简化了网络文件共享，但可能会影响依赖旧版 AFP 的 Time Machine 用户，特别是使用 Time Capsule 等旧硬件的用户。 TLS 1.2 要求适用于与某些服务器的连接，AFP 弃用意味着不再支持通过 AFP 进行 Time Machine 备份，需要迁移到 SMB。使用 Time Capsule 的用户可能需要运行自定义的 Samba 构建才能继续使用。
+GCC 16.1 作为 GCC 16 的第一个稳定版本，引入了改进的错误信息和实验性的 HTML 输出选项，用于编译器诊断信息。 改进的错误信息帮助开发者更高效地调试代码，而 HTML 输出选项则有助于与基于 Web 的工具和文档工作流更好地集成。 HTML 输出是实验性的，基于 GCC 15 中新增的 -fdiagnostics-add-output= 基础设施。错误信息的改进包括对复杂诊断信息的分层格式化。
 
-hackernews · pvtmert · Apr 27, 15:36
+rss · Phoronix · Apr 28, 13:13
 
-**背景**: AFP 是苹果专有的文件共享协议，而 SMB 是广泛使用的跨平台协议。TLS 1.2 是一种确保通信安全的加密协议；旧版本如 TLS 1.1 被认为不安全。苹果多年来一直在逐步弃用 AFP。
+**背景**: GCC（GNU 编译器套件）是一个广泛使用的开源编译器套件，支持 C、C++ 等语言。编译器错误信息对于开发者识别和修复代码问题至关重要。最近的 GCC 版本一直致力于使诊断信息更易读、更实用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Apple_Filing_Protocol">Apple Filing Protocol - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/SMB_protocol">SMB protocol</a></li>
-<li><a href="https://en.wikipedia.org/wiki/TLS_1.2">TLS 1.2</a></li>
+<li><a href="https://www.phoronix.com/news/GCC-16-Error-Messages">GCC 16's Improved Error Messages, Experimental HTML Output</a></li>
+<li><a href="https://developers.redhat.com/articles/2026/04/28/gcc-16-improved-error-messages-sarif-output">New features in GCC 16: Improved error messages and SARIF output</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者反应不一：有人指出 TLS 1.2 早就该强制了，也有人回忆起苹果重写 mDNSResponder 时引发的网络问题。少数用户分享了变通方法，比如为 Time Capsule 构建 Samba 4，还有人对 Time Machine 动画的不完善表示遗憾。
+**社区讨论**: Reddit 和 Linux 论坛上的社区评论总体上是积极的，开发者对可用性改进表示赞赏。一些用户对 HTML 输出用于集成到 CI/CD 流水线表示兴趣。
 
-**标签**: `#macOS`, `#networking`, `#TLS`, `#Time Machine`, `#SMB`
+**标签**: `#GCC`, `#compiler`, `#open-source`, `#developer tools`
 
 ---
 
 <a id="item-22"></a>
-## [凝视墙壁的失落艺术](https://www.alexselimov.com/posts/men_who_stare_at_walls/) ⭐️ 7.0/10
+## [Fedora 44 发布，搭载 GNOME 50 和 Plasma 6.6](https://www.phoronix.com/news/Fedora-44-Released) ⭐️ 7.0/10
 
-一篇个人随笔指出，智能手机已经消除了过去用于走神的空闲时刻，这种状态被称为“非注意”。 这篇反思突显了智能手机时代一种微妙而深刻的损失：让思绪自由游荡的能力，而这种能力对创造力和心理健康至关重要。 文章用“凝视墙壁的人”来形容陷入沉思的人，与如今不断查看手机的行为形成对比。社区评论将这种状态与冥想进行比较，并讨论了其益处。
+Fedora 44 正式发布，Workstation 版本默认搭载 GNOME 50 桌面，并提供了改进的 KDE Plasma 6.6 体验，包含 Plasma 登录管理器。 此次发布为用户带来了最新的 Linux 桌面创新，包括 GNOME 和 KDE 的重大更新，对 Linux 爱好者和开发者来说是一个重要里程碑。 Fedora 44 还包含 Budgie 10.10、PHP 8.5、Ruby 4.0、Boost 1.90、Golang 1.26、CMake 4.0、GCC 16 和 LLVM 22，并改进了 Live Media 支持，增强了针对 Windows on Arm 笔记本的 AArch64 EFI。
 
-hackernews · aselimov3 · Apr 27, 11:08
+rss · Phoronix · Apr 28, 12:31
 
-**背景**: “非注意”概念指的是无结构的空闲时间，此时大脑无需外部刺激即可自由游荡。在智能手机时代之前，这种时刻在等待、通勤或休息时很常见。持续使用智能手机填补了这些空白，可能减少了创造性思维和自我反思的机会。
+**背景**: Fedora 是一个免费开源的 Linux 发行版，是 CentOS Stream 和 Red Hat Enterprise Linux 的上游源。它以提供前沿软件而闻名，大约每六个月发布一个新版本。
 
-**社区讨论**: 评论者大多赞同文章的观点，分享了凝视墙壁的个人经历以及走神的好处。一些人争论这种状态是否是一种冥想形式，而另一些人则提醒说它与冥想不同，并非注意力缺陷的解决方法。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Fedora_Linux">Fedora Linux</a></li>
+<li><a href="https://release.gnome.org/50">Introducing GNOME 50 - GNOME Release Notes</a></li>
 
-**标签**: `#attention`, `#smartphones`, `#meditation`, `#mental health`, `#technology`
+</ul>
+</details>
+
+**社区讨论**: Reddit 上的社区讨论显示用户对此次发布感到兴奋，并指出 Fedora 44 现已可供下载。建议部分 Nvidia 用户在升级前检查兼容性。
+
+**标签**: `#Fedora`, `#Linux`, `#GNOME`, `#KDE`, `#Open Source`
 
 ---
 
 <a id="item-23"></a>
-## [SVG 消毒的困境](https://muffin.ink/blog/scratch-svg-sanitization/) ⭐️ 7.0/10
+## [Proton 11.0 Beta 2 更新 VKD3D-Proton](https://www.phoronix.com/news/Proton-11.0-Beta-2) ⭐️ 7.0/10
 
-一篇详细文章解释了由于 SVG 的复杂特性（如脚本、事件处理程序和 CSS），对其进行消毒极其困难，并建议使用内容安全策略 (CSP) 作为解决 HTTP 泄漏问题的唯一可靠方法。 这很重要，因为许多 Web 应用程序允许 SVG 上传或渲染，不完整的消毒可能导致 XSS 和数据泄露。文章提供了实用的 CSP 建议，可帮助开发者保护其应用程序。 文章指出 SVG 支持内联脚本、事件处理程序、CSS 和外来对象，使消毒成为一个打地鼠式的问题。它建议使用 CSP 标头或 <meta> 标签作为抵御 HTTP 泄漏的唯一可靠防御。
+Valve 发布了 Proton 11.0 Beta 2，更新了 VKD3D-Proton 组件，以提升通过 Steam Play 在 Linux 上运行 Windows 游戏的 DirectX 12 兼容性。 此次更新通过改进 DirectX 12 支持，提升了 Linux 用户的游戏体验，这对于在 Linux 上运行现代 Windows 游戏至关重要。它巩固了 Proton 作为 Linux 游戏关键工具的地位。 Proton 11.0 Beta 2 紧随 Beta 1 发布，后者基于 Wine 11.0 进行了更新。VKD3D-Proton 分支将 Direct3D 12 调用转换为 Vulkan，此 Beta 版本可能包含改进游戏兼容性的修复和优化。
 
-hackernews · varun_ch · Apr 27, 15:31
+rss · Phoronix · Apr 28, 11:00
 
-**背景**: SVG（可缩放矢量图形）是一种基于 XML 的矢量图像格式，可以包含脚本和 CSS 等交互元素。消毒是从用户提交的 SVG 中移除危险内容以防止跨站脚本 (XSS) 等安全漏洞的过程。内容安全策略 (CSP) 是一种浏览器安全机制，限制页面可以加载和执行的资源。
+**背景**: Proton 是 Valve 为 Steam Play 开发的兼容性工具，允许仅支持 Windows 的游戏在 Linux 上运行。它基于 Wine 构建，并包含 VKD3D-Proton 等额外组件，后者将 DirectX 12 图形调用转换为 Vulkan。这为 Linux 上的现代游戏带来了更好的性能和兼容性。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://stackoverflow.com/questions/39857858/angular-2-domsanitizer-bypasssecuritytrusthtml-svg">Angular 2, DomSanitizer, bypassSecurityTrustHtml, SVG - Stack</a></li>
-<li><a href="https://dataprotectioncenter.com/privacy-protection/hackers-exploit-svg-files-to-deliver-stealthy-malware/">Hackers Exploit SVG Files to Deliver Stealthy Malware | Data</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Content-Security-Policy/script-src">Content - Security - Policy : script-src directive - HTTP | MDN</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Proton_(software)">Proton (software) - Wikipedia</a></li>
+<li><a href="https://grokipedia.com/page/VKD3D-Proton">VKD3D-Proton</a></li>
+<li><a href="https://github.com/ValveSoftware/Proton">GitHub - ValveSoftware/ Proton : Compatibility tool for Steam Play...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者一致认为 CSP 是唯一可靠的修复方法，有人建议为内联 SVG 添加沙箱属性。另有人提议仅支持 SVG 功能的安全子集，还有一位提到了 HTML Sanitizer API 对 SVG 的有限支持。
-
-**标签**: `#web security`, `#SVG`, `#CSP`, `#sanitization`, `#frontend`
+**标签**: `#Proton`, `#Linux Gaming`, `#VKD3D-Proton`, `#Steam Play`
 
 ---
 
 <a id="item-24"></a>
-## [为什么不用 Lean？一个批判性比较](https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html) ⭐️ 7.0/10
+## [AMD XDNA 驱动为 NPU 添加硬件调度时间量子以实现公平性](https://www.phoronix.com/news/AMDXDNA-Hardware-Sched-Quant) ⭐️ 7.0/10
 
-Lawrence Paulson 发表了一篇博客文章，批判性地审视了为什么 Lean 可能不是所有证明助手任务的最佳选择，并将其与 Coq、Agda 和 Isabelle/HOL 进行了比较。 这一分析有助于从业者根据需求选择合适的证明助手，突出了在自动化、依赖类型和社区支持方面的权衡。 文章认为 Lean 保留证明对象可能导致项过大，但社区评论指出这是一种误解。Lean 因各方面表现均衡且拥有庞大社区而受到称赞。
+AMD 为 Ryzen AI NPU 的 AMDXDNA 驱动引入了硬件调度时间量子功能，以确保多用户访问的公平性。默认时间量子为 30 毫秒，可通过模块参数配置。 该功能解决了 NPU 上多用户或多上下文 AI 工作负载中的关键公平性问题，改善了共享计算环境中的资源分配。这对于 Linux 内核开发中的系统研究和软硬件协同设计尤为重要。 硬件调度时间量子利用了 Ryzen AI NPU 的硬件能力，并可通过 amdxdna.time_quantum_ms 模块参数进行调整。这使得系统管理员可以根据工作负载需求调整公平性粒度。
 
-hackernews · ibobev · Apr 27, 14:24
+rss · Phoronix · Apr 28, 10:06
 
-**背景**: Lean、Coq、Agda 和 Isabelle/HOL 等证明助手是用于编写和验证数学证明的软件工具。它们基于不同的类型理论，提供不同级别的自动化和表达能力。Lean 基于带归纳类型的构造演算，并拥有庞大的数学库（mathlib）。
+**背景**: AMDXDNA 驱动是 AMD 基于 XDNA 架构的 NPU（如 Ryzen AI 处理器中的 NPU）的 Linux 内核驱动。时间量子是轮询调度中用于在多个进程之间公平分配 CPU 或加速器时间的固定时间片。该功能为之前缺乏此类机制的 NPU 调度带来了类似的公平性保证。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Lean_(proof_assistant)">Lean (proof assistant)</a></li>
-<li><a href="https://www.reddit.com/r/math/comments/vmzuot/coq_vs_lean_what_are_your_opinions/">Coq vs Lean - What are your opinions? : r/math - Reddit</a></li>
-<li><a href="https://arxiv.org/pdf/1808.09701">Comparison of Two Theorem Provers: Isabelle/HOL and Coq</a></li>
+<li><a href="https://www.phoronix.com/news/AMDXDNA-Hardware-Sched-Quant">AMDXDNA Driver Preps Hardware Scheduler Time Quantum For...</a></li>
+<li><a href="https://github.com/amd/xdna-driver">GitHub - amd/xdna-driver</a></li>
+<li><a href="https://docs.kernel.org/accel/amdxdna/index.html">accel/amdxdna NPU driver — The Linux Kernel documentation</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者就 Lean 的优势展开了讨论：一些人认为它在函数式编程方面比 Agda 笨重，而另一些人则称赞其平衡性。一个关键纠正是，Lean 并不保留完整的证明对象，这与文章的说法相反。
-
-**标签**: `#proof assistants`, `#Lean`, `#functional programming`, `#formal verification`
+**标签**: `#AMD`, `#NPU`, `#scheduling`, `#AI`, `#Linux kernel`
 
 ---
 
 <a id="item-25"></a>
-## [pip 26.1 发布，新增依赖冷却和 pylock 支持](https://lwn.net/Articles/1070010/) ⭐️ 7.0/10
+## [RADV Vulkan 驱动通过 AMD TMZ 增加受保护内存支持](https://www.phoronix.com/news/AMD-RADV-Protected-Memory) ⭐️ 7.0/10
 
-pip 26.1 已发布，引入了依赖冷却功能、对 pylock.toml 文件的实验性支持、解析器改进、安全修复，并终止了对 Python 3.9 的支持。 此版本对 Python 开发者意义重大，因为它提高了依赖解析的可靠性，通过 pylock 支持增强了可重现性，并修复了安全漏洞，同时终止对 Python 3.9 的支持鼓励用户迁移到更新版本。 依赖冷却功能允许 pip 暂时避免重新解析最近已解析的依赖项，减少不必要的工作。实验性的 pylock 支持实现了 PEP 751，用于可重现安装，解析器改进解除了 2020 解析器的若干限制，进一步接近移除旧版解析器。
+AMD 工程师已为开源 RADV Vulkan 驱动添加了受保护内存支持，该功能利用较新 AMD GPU 上的 Trusted Memory Zone (TMZ) 特性。 这一增强为开源 Vulkan 驱动带来了硬件支持的内存加密，提高了图形工作负载中敏感数据的安全性，并惠及 Linux 游戏和图形生态系统。 该实现利用 AMD 的 TMZ 硬件内存保护方案来加密部分显存，并在最新的 Mesa 版本中可用于兼容的 GPU。
 
-rss · LWN.net · Apr 27, 18:45
+rss · Phoronix · Apr 27, 19:33
 
-**背景**: pip 是 Python 的标准包安装工具。2020 解析器引入了更严格的依赖冲突检测，但存在一些限制，pip 26.1 解决了这些问题。依赖冷却功能受 uv（一个快速的 Python 包管理器）启发。pylock.toml 是 PEP 751 定义的新锁定文件格式，用于确保跨环境的可重现安装。
+**背景**: RADV 是 AMD GPU 的开源 Vulkan 驱动，属于 Mesa 图形库的一部分。Trusted Memory Zone (TMZ) 是 AMD 的硬件特性，用于加密内存内容以防止物理攻击。此次集成允许应用程序为敏感数据请求受保护的内存区域。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://packaging.python.org/en/latest/specifications/pylock-toml/">pylock.toml Specification - Python Packaging User Guide</a></li>
-<li><a href="https://socket.dev/blog/pylock-toml-standard-adoption">Python Tools Are Quickly Adopting the New pylock.toml Standard</a></li>
-<li><a href="https://blog.yossarian.net/2025/12/13/cooldowns-redux">Dependency cooldowns, redux</a></li>
+<li><a href="https://www.phoronix.com/news/AMD-Trusted-Memory-Zone">AMD " Trusted Memory Zone " Encrypted vRAM Support... - Phoronix</a></li>
+<li><a href="https://lists.freedesktop.org/archives/amd-gfx/2019-September/039928.html">[PATCH 00/14] drm/amdgpu: introduce secure buffer object support...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#pip`, `#Python`, `#package management`, `#release`
+**标签**: `#Vulkan`, `#RADV`, `#AMD`, `#GPU`, `#security`
 
 ---
 
 <a id="item-26"></a>
-## [Linux 7.1 合并窗口关闭，包含近 1.3 万个变更集](https://lwn.net/Articles/1067785/) ⭐️ 7.0/10
+## [uv 0.11.8 发布，带来小幅增强和配置选项](https://github.com/astral-sh/uv/releases/tag/0.11.8) ⭐️ 6.0/10
 
-Linux 7.1 合并窗口关闭，共包含来自 2011 名开发者的 12996 个非合并变更集，其中 342 名是首次贡献者。值得注意的新增内容包括 Alpha 架构的 seccomp() 支持、Loongarch 的高内存支持，以及 sched_ext 中子调度器支持的初步实现。 此次合并窗口显示了 Linux 内核开发者社区的持续增长，首次贡献者数量不断增加。新特性如子调度器和改进的交换子系统将提升广大用户的性能和灵活性。 合并窗口在后半段收到了超过 9000 个变更集，主要集中在驱动更新。关键技术变化包括因缺乏维护者而移除 RISC-V 的就地执行支持，以及为虚拟机跟踪添加远程环形缓冲区。
+uv 0.11.8 于 2026-04-27 发布，新增了 pip uninstall -y 支持、静默空 SSL_CERT_DIR 目录的警告，并引入了 UV_PYTHON_NO_REGISTRY 和 UV_NO_PROJECT 等新环境变量。 虽然是一个常规补丁，但这些改进增强了 CI/CD 和脚本工作流的用户体验，新的配置选项让用户对 Python 发现和项目行为有了更精细的控制。 该版本还修复了多个 bug，包括处理 PEP 517 构建中的传递性 URL 依赖，以及在通过 .python-version 请求补丁版本时禁用透明的 Python 升级。
 
-rss · LWN.net · Apr 27, 16:39
+github · github-actions[bot] · Apr 27, 13:18
 
-**背景**: Linux 内核开发周期以两周的合并窗口开始，在此期间新特性被接纳入主线。合并窗口关闭后，进入稳定期，最终发布正式版本。7.1 合并窗口是 Linux 内核持续开发的一部分，由 Linus Torvalds 和全球开发者社区维护。
+**背景**: uv 是一个用 Rust 编写的快速 Python 包和项目管理器，速度比 pip 快 10-1000 倍。它旨在用一个二进制文件取代 pip、pipx、poetry 等工具。exclude-newer 功能通过忽略在给定时间戳之后发布的包来帮助实现可重现的环境。
 
-**标签**: `#Linux kernel`, `#merge window`, `#open source`, `#development`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/astral-sh/uv">GitHub - astral-sh/uv: An extremely fast Python package and project ...</a></li>
+<li><a href="https://docs.astral.sh/uv/concepts/projects/sync/">Locking and syncing | uv - docs.astral.sh</a></li>
+<li><a href="https://pydevtools.com/handbook/how-to/how-to-use-exclude-newer-for-reproducible-python-environments/">How to Use `--exclude-newer` for Reproducible Python ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#python`, `#package-manager`, `#release`, `#uv`
 
 ---
 
 <a id="item-27"></a>
-## [微软开源 TRELLIS.2：40 亿参数图像转 3D 模型](https://v.redd.it/0flkmb04isxg1) ⭐️ 7.0/10
+## [Yglesias 倾向专业 AI 编程而非氛围编程](https://simonwillison.net/2026/Apr/28/matthew-yglesias/#atom-everything) ⭐️ 6.0/10
 
-微软发布了 TRELLIS.2，这是一个开源的 40 亿参数图像转 3D 生成模型，能够生成高达 1536³分辨率、带有完整 PBR 材质的高保真 3D 资产，采用了新颖的 O-Voxel 结构和具有 16 倍空间压缩的原生 3D VAE。 此次开源发布使最先进的 3D 生成技术得以普及，开发者和艺术家可以高效地从单张图像创建高质量 3D 资产，有望加速游戏、VR/AR 和数字内容创作等领域的工作流程。 该模型采用名为 O-Voxel 的无场稀疏体素结构来处理复杂拓扑和锐利特征，并使用具有 16 倍空间压缩的原生 3D VAE 实现高效的潜在表示。代码和在线演示已在 GitHub 和 Hugging Face 上提供。
+Matthew Yglesias 在推特上表示，经过五个月的体验，他更倾向于由专业管理的软件公司使用 AI 编程辅助，而不是个人进行氛围编程。 这位知名评论员的观点凸显了软件行业中关于 AI 辅助编程最佳应用方式的辩论——是个人使用还是专业团队使用，这可能影响公司采用这些工具的方式。 Yglesias 的推文对比了“氛围编程”（即让 AI 根据自然语言描述生成代码）与专业管理的软件公司利用 AI 为客户生产更好、更便宜的产品。
 
-reddit · r/LocalLLaMA · 44th--Hokage · Apr 27, 20:07
+rss · Simon Willison · Apr 28, 13:25
 
-**背景**: 图像转 3D 生成旨在从单张 2D 图像创建 3D 模型，由于需要推断深度、几何和材质，这一任务颇具挑战。传统方法常依赖神经辐射场或符号距离函数，而 TRELLIS.2 通过 O-Voxel 和 3D VAE 引入紧凑的潜在空间，提高了效率和保真度。PBR（基于物理的渲染）材质模拟真实的光照交互，增强了视觉质量。
+**背景**: 氛围编程是一个新近创造的术语，指的是一种 AI 辅助开发方法：用户用自然语言描述软件需求，让 AI 编写代码，并根据功能而非代码质量来评判结果。GitHub Copilot、Windsurf 和 CodeGPT 等 AI 编程助手已成为个人开发者和企业广泛使用的工具。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/microsoft/TRELLIS.2">GitHub - microsoft/TRELLIS.2: Native and Compact Structured Latents for 3D Generation · GitHub</a></li>
-<li><a href="https://microsoft.github.io/TRELLIS.2/">TRELLIS.2: Native and Compact Structured Latents for 3D Generation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Vibe_coding">Vibe coding - Wikipedia</a></li>
+<li><a href="https://vibecoding.app/blog/what-is-vibe-coding">What Is Vibe Coding? Definition, Origin & 2026 Guide</a></li>
+<li><a href="https://apidog.com/blog/top-ai-coding-assistant-tools/">Top 18 AI Coding Assistant Tools in 2026</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论指出该模型实际上在四个月前就已发布，降低了新闻的紧迫性。一些用户反映难以复现演示中的高质量结果，并且有用户请求 ROCm 支持，虽然已有合并请求被批准，但在 AMD GPU 上仍存在兼容性问题。
-
-**标签**: `#3D generation`, `#image-to-3D`, `#open-source`, `#generative AI`, `#computer vision`
+**标签**: `#ai-assisted-programming`, `#vibe-coding`, `#software-engineering`, `#opinion`
 
 ---
 
 <a id="item-28"></a>
-## [4B 参数 LLM 基准测试：Nemotron 3 Nano 在金融、推理和代码任务中夺冠](https://i.redd.it/fj2b1am41sxg1.png) ⭐️ 7.0/10
+## [Google Meet 语音翻译功能扩展至移动端](https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/#atom-everything) ⭐️ 6.0/10
 
-一项社区基准测试比较了五款 4B 参数的大语言模型（Gemma 4、Qwen 3.5、Granite 4、Nemotron Nano、Phi-4 Mini），涵盖金融、推理和代码共 39 项任务，其中 Nemotron 3 Nano 以 85%的总分位居第一。 该基准测试及时提供了最新小型 LLM 的直接对比，突显了 Nemotron 3 Nano 在金融任务上的强劲表现，并引发了关于基准测试方法和 token 预算公平性的讨论。 该基准测试使用最大输出 1024 个 token、温度设为 0、随机种子 42，并对每个任务进行 3 次试验取中位数。Nemotron 3 Nano 在金融任务上获得 100%，推理 80%，代码 67%；而 Qwen 3.5 总分仅 15%，很可能是因为思考 token 预算不足。
+Google Meet 的语音翻译功能现已向移动设备推出，该功能通过语音模仿实现实时对话翻译，但目前仍处于 alpha 阶段，仅支持有限的语言。 此次扩展为移动用户带来了科幻般的实时翻译体验，有望打破移动会议中的语言障碍，但其 alpha 状态和有限的语言覆盖可能限制其立即普及。 该功能目前仅支持英语、西班牙语、法语、德语、葡萄牙语和意大利语，测试中在两台笔记本电脑之间可以工作，但在 iPhone 和 iPad 之间未能成功。
 
-reddit · r/LocalLLaMA · FederalAnalysis420 · Apr 27, 18:36
+rss · Simon Willison · Apr 27, 17:37
 
-**背景**: 4B 参数的 LLM 足够小，可以在笔记本电脑等消费级硬件上运行，因此适合本地部署。该基准测试了来自 Google、阿里巴巴、IBM、NVIDIA 和 Microsoft 的模型，发布时间从 2024 年底到 2026 年初。Token 预算对于使用内部推理 token 后再输出答案的思考模型至关重要。
+**背景**: Google Meet 的语音翻译利用 AI 技术，以接近实时的方式用合成语音对讲话进行配音，并模仿原说话人的声音。该功能此前已在桌面端可用，现在作为 Google Workspace 更新的一部分扩展至移动设备。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://llm-stats.com/benchmarks">LLM Benchmarks 2026 - Compare AI Benchmarks and Tests</a></li>
-<li><a href="https://ollama.com/library/nemotron-3-nano:4b">nemotron-3-nano:4b</a></li>
-<li><a href="https://www.ibm.com/granite/docs/models/granite">Granite 4.0 - IBM Granite</a></li>
+<li><a href="https://support.google.com/meet/answer/16221730?hl=en&co=GENIE.Platform=Desktop">Learn about Speech Translation - Computer - Google Meet Help</a></li>
+<li><a href="https://simonwillison.net/2026/Apr/27/speech-translation-in-google-meet-is-now-rolling-out-to-mobile-d/">Speech translation in Google Meet is now rolling out to mobile devices</a></li>
+<li><a href="https://www.pcmag.com/news/lets-chat-in-another-language-google-meet-rolls-out-live-speech-translation">Let's Chat (in Another Language). Google Meet Rolls Out Live Speech ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者质疑 1024 个 token 的预算设置，认为这对 Qwen 3.5 等思考模型不公平。有人建议禁用思考功能或使用外部预算控制。还有人指出，较旧的 Phi-4 Mini 在代码任务上得分高，可能表明基准测试存在缺陷。
-
-**标签**: `#LLM`, `#benchmark`, `#local LLM`, `#model comparison`, `#AI`
+**标签**: `#Google Meet`, `#speech translation`, `#mobile`, `#real-time translation`
 
 ---
 
 <a id="item-29"></a>
-## [通过添加旧 GPU 增加 LLM 的 VRAM](https://www.reddit.com/r/LocalLLaMA/comments/1swzjnu/to_16gb_vram_users_plug_in_your_old_gpu/) ⭐️ 7.0/10
+## [影石创新一季度营收增长 83%，计划推出新相机和无人机](https://www.ithome.com/0/944/696.htm) ⭐️ 6.0/10
 
-一位 Reddit 用户发现，通过 llama.cpp 中的 Vulkan 将 16GB RTX 5070 Ti 与旧的 6GB RTX 2060 组合使用，可以运行原本无法装入 16GB VRAM 的更大 LLM（例如 Qwen3.6-27B），总 VRAM 达到 22GB。 这一实用技巧使 VRAM 有限（例如 16GB）的用户无需购买昂贵的 24GB 显卡即可运行更大的密集模型，让爱好者和研究人员更容易获得高端 LLM。 该设置使用 llama-server 的`dev=Vulkan1,Vulkan2`将模型分配到多个 GPU，并需要`no-mmap`和`mlock=false`以避免模型占用 RAM。性能可能受较慢显卡的限制（例如，在单个 3090 Ti 上为 30 t/s，而双卡时降至 20 t/s）。
+影石创新公布 2026 年一季度营收 24.81 亿元，同比增长 83.11%；2025 年全年营收 97.41 亿元，同比增长 74.76%。公司宣布云台相机、无线领夹麦克风和无人机三大新品预计一年内上市，并首次提出打造 AI 驱动的“摄影机器人”长期愿景。 这标志着影石创新的快速增长以及从硬件制造商向生态构建者的战略转型，AI 和机器人技术成为核心。“摄影机器人”概念可能重新定义相机和无人机在内容创作及具身智能应用中的使用方式。 尽管营收增长，但由于战略投入加大、市场竞争和存储元器件涨价，利润率有所下滑。公司正与多家具身智能企业合作，为“摄影机器人”开发 AI 模型。
 
-reddit · r/LocalLLaMA · akira3weet · Apr 27, 10:20
+rss · IThome 日报 · Apr 28, 14:09
 
-**背景**: 大型语言模型（LLM）需要大量 VRAM 才能完全在 GPU 上运行，这比 CPU+RAM 快得多。许多用户只有 16GB VRAM，不足以运行 30B+参数模型。llama.cpp 支持使用 Vulkan 或 CUDA 将模型分配到多个 GPU，但传统观点认为使用相同 GPU 才能获得最佳性能。
+**背景**: 影石创新以全景相机、运动相机和拇指相机闻名。其新产品类别包括云台相机（稳定相机支架）、无线领夹麦克风和无人机。“具身智能”指拥有物理身体并能与环境交互的 AI 系统，如机器人。“摄影机器人”愿景结合相机硬件、影像算法和 AI，打造自主成像设备。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/ggml-org/llama.cpp/blob/master/tools/server/README.md">llama.cpp/tools/server/README.md at master · ggml-org/llama.cpp</a></li>
-<li><a href="https://en.wikipedia.org/wiki/PCI_Express">PCI Express - Wikipedia</a></li>
+<li><a href="https://www.ithome.com/0/944/696.htm">影石创新 2026 年一季度营收 24.81 亿元同比增 83%，旗下全新云台相机...</a></li>
+<li><a href="https://news.qq.com/rain/a/20251229A039E300">影石紧盯需求背后的需求，刘靖康：终极的相机应该是一个摄影机器人_腾...</a></li>
+<li><a href="https://36kr.com/p/2356650545069061">具 身 智 能 ，是机器人的“冷饭热炒”吗？ -36氪</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区成员普遍赞同这一技巧，一些人分享了自己的多 GPU 设置（例如，在 3x3090 基础上增加 3060）。然而，多位用户指出性能瓶颈：Mysterious_Role_8852 报告在 3090 Ti 上添加 2070 后，速度从 30 t/s 降至 20 t/s。其他人则提出了功耗、空间和插槽带宽等实际顾虑。
-
-**标签**: `#LLM`, `#VRAM`, `#GPU`, `#hardware`, `#llama.cpp`
+**标签**: `#hardware`, `#camera`, `#drone`, `#AI`, `#business`
 
 ---
 
 <a id="item-30"></a>
-## [Skymizer 发布 384GB PCIe 卡，支持 700B 参数大模型推理](https://www.reddit.com/r/LocalLLaMA/comments/1sx2vxp/skymizer_taiwan_inc_unveils_breakthrough/) ⭐️ 7.0/10
+## [三星 Exynos 2600 推出 ENSS，类似 DLSS 的 AI 超分技术](https://www.ithome.com/0/944/691.htm) ⭐️ 6.0/10
 
-台湾 Skymizer 公司发布了一款突破性 PCIe 卡，搭载六颗 HTX301 芯片和 384GB 内存，可在约 240W 功耗下本地运行 700B 参数大语言模型推理，其核心创新是将解码阶段从 GPU 卸载到 HTX301 卡上。 这种架构使企业无需昂贵的多 GPU 配置，即可在单卡上运行超大规模模型，有望以更低功耗和成本普及大模型推理能力。 该卡将大模型推理分为两个阶段：GPU 处理计算密集的预填充阶段，HTX301 卡处理内存带宽密集的解码阶段。内存并非 HBM，而是采用类似 GDDR6/6X/7 的封装，带宽细节尚未公布。
+三星宣布其 Exynos 2600 芯片现已支持 Exynos Neural Super Sampling (ENSS)，这是一种 AI 驱动的技术，可对低分辨率渲染画面进行超分并生成插帧，从而提升画质和流畅度。 ENSS 将桌面级的 AI 超分和帧生成技术引入移动设备，有望让手机在节省功耗的同时提供更高的画质和更流畅的游戏体验，类似于 DLSS 对 PC 游戏的变革。 ENSS 结合了神经超采样 (NSS) 和神经帧生成 (NFG)；搭载 ENSS 的 Exynos 2600 在 Basemark Power Board 基准测试中排名第一。目前仅 Exynos 2600 支持 ENSS，但三星计划将其扩展到未来芯片。
 
-reddit · r/LocalLLaMA · lurenjia_3x · Apr 27, 12:56
+rss · IThome 日报 · Apr 28, 13:36
 
-**背景**: 大语言模型推理包含两个阶段：预填充（处理输入提示）和解码（逐个生成 token）。解码受内存带宽限制，而预填充受计算能力限制。传统 GPU 同时处理两者，而 Skymizer 的方法为每个阶段分配专用硬件以提高效率。
+**背景**: AI 超分和帧插值技术利用机器学习从低分辨率输入重建高分辨率图像，并在现有帧之间生成中间帧。NVIDIA 的 DLSS 是 PC 上的知名例子，类似的技术还有 AMD FSR 和 Intel XeSS。在移动端，功耗和散热限制使得此类 AI 驱动的优化对游戏和图形密集型应用尤为有价值。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://skymizer.ai/skymizer-announces-htx301-reinventing-on-prem-ai-inference/">Skymizer Announces HTX301 — Reinventing On-Prem AI Inference</a></li>
-<li><a href="https://medium.com/@sailakkshmiallada/understanding-the-two-key-stages-of-llm-inference-prefill-and-decode-29ec2b468114">Understanding the Two Key Stages of LLM Inference : Prefill and...</a></li>
+<li><a href="https://semiconductor.samsung.com/technologies/processor/enss/">ENSS - Technologies | Samsung Semiconductor Global</a></li>
+<li><a href="https://www.sammobile.com/2026/04/28/samsung-brings-ai-powered-graphics-optimization-to-the-exynos-2600/">Samsung brings AI-powered graphics optimization to the Exynos ...</a></li>
+<li><a href="https://www.androidheadlines.com/2026/04/samsungs-exynos-2600-uses-ai-to-boost-graphics-and-its-a-lot-like-dlss-for-your-phone.html">Samsung's Exynos 2600 Uses AI to Boost Graphics, and It's a ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区对未公开的带宽、潜在的高成本（数万美元）以及过去的“雾件”承诺表示怀疑。有人质疑在卡之间传输权重是否会导致延迟，也有人指出缺乏具体的性能数据。
-
-**标签**: `#LLM inference`, `#hardware architecture`, `#AI hardware`, `#edge AI`
+**标签**: `#Samsung`, `#Exynos`, `#AI upscaling`, `#mobile GPU`, `#ENSS`
 
 ---
 
 <a id="item-31"></a>
-## [微软 Windows K2 计划旨在重塑 Windows 11](https://www.windowscentral.com/microsoft/windows-11/what-is-windows-k2-everything-you-need-to-know-saving-windows-11) ⭐️ 7.0/10
+## [SpaceX 董事会将马斯克薪酬与火星殖民及 7.5 万亿美元估值挂钩](https://www.ithome.com/0/944/665.htm) ⭐️ 6.0/10
 
-微软内部正在推进一项名为“Windows K2”的长期计划，旨在通过性能、可靠性和社区驱动的改进来重塑 Windows 11，包括基于 WinUI 3 的开始菜单（响应速度提升 60% 且无广告）、将更新频率降低至每月一次，以及在一到两年内使游戏性能对标 SteamOS。 该计划标志着从快速功能发布向质量优先开发的战略转变，通过解决长期存在的性能、臃肿软件和侵入性更新等投诉，有望恢复用户对 Windows 11 的信任。如果成功，它可能使 Windows 11 在游戏领域与 SteamOS 等平台更具竞争力，并改善数百万 PC 用户的整体体验。 K2 计划基于四大支柱：性能、工艺、可靠性和社区反馈。关键技术细节包括：使用 WinUI 3 重建开始菜单以实现 60% 的速度提升并移除广告；将系统更新重启频率降至每月一次；优化系统体积以降低空闲内存占用。
+SpaceX 董事会批准了一项针对埃隆·马斯克的薪酬方案，只有当公司实现 7.5 万亿美元估值并建立至少 100 万人的永久火星定居点，或建成 100 太瓦的太空数据中心时，马斯克才能获得超级投票权股票。 该计划凸显了 SpaceX 的远大长期目标，以及在公司筹备 IPO 之际留住马斯克的挑战。它也为将高管薪酬与愿景性、非财务里程碑挂钩开创了先例。 该计划为火星殖民目标授予 2 亿股 B 类超级投票权股票，为太空数据中心目标授予 6040 万股，且未设定完成期限。SpaceX 计划在马斯克 6 月 28 日生日前后进行 IPO，估值约 1.75 万亿美元。
 
-telegram · zaihuapd · Apr 27, 10:31
+rss · IThome 日报 · Apr 28, 11:39
 
-**背景**: Windows 11 因性能问题、带有广告的杂乱开始菜单以及需要重启的频繁更新而受到批评。WinUI 3 是微软用于 Windows 桌面应用的现代原生 UI 框架，与操作系统解耦以实现更快的更新。SteamOS 是 Valve 基于 Linux 的游戏操作系统，针对 Steam Deck 等掌机进行了优化，以其游戏性能和易用性著称。
+**背景**: SpaceX 采用双层股权结构，B 类股每股拥有 10 票投票权，使马斯克以 42%的股权控制约 79%的投票权。该公司正准备进行 IPO，可能筹集大量资金，而马斯克目前每年从 SpaceX 领取的名义薪资仅为 54080 美元。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.windowscentral.com/microsoft/windows-11/what-is-windows-k2-everything-you-need-to-know-saving-windows-11">What is Windows K 2 ? Inside Microsoft’s big plan ... | Windows Central</a></li>
-<li><a href="https://pureinfotech.com/microsoft-windows-k2-project/">Microsoft's Windows K 2 project aims to fix the... - Pureinfotech</a></li>
-<li><a href="https://en.wikipedia.org/wiki/WinUI_3">WinUI 3</a></li>
+<li><a href="https://www.ithome.com/0/941/930.htm">SpaceX 招股书披露：IPO 后马斯克将拥有 79% 投票控制权</a></li>
+<li><a href="https://finance.sina.cn/tech/2026-04-22/detail-inhvitaq4507478.d.html?vt=4">SpaceX 招股书披露：IPO 后马斯克将拥有 79% 投票控制权|美国证券交易...</a></li>
+<li><a href="https://news.qq.com/rain/a/20260422A02XPA00">SpaceX招股书披露：IPO后马斯克将拥有79%投票控制权</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Windows 11`, `#Microsoft`, `#Operating Systems`, `#WinUI 3`, `#Gaming`
+**标签**: `#SpaceX`, `#compensation`, `#Mars colonization`, `#data center`, `#Elon Musk`
 
 ---
 
 <a id="item-32"></a>
-## [中国科技巨头因 AI 内容遭用户抵制](https://t.me/zaihuapd/41092) ⭐️ 7.0/10
+## [7-Zip 26.01 在 Linux 上增加大页支持以提升压缩速度](https://www.phoronix.com/news/7-Zip-26.01) ⭐️ 6.0/10
 
-网易游戏《第五人格》因疑似 AI 生成的海报出现肢体错误，玩家于 4 月 23 日发起“停氪”抵制；爱奇艺开放“艺人库”供 AIGC 创作者遴选，引发肖像权争议；字节跳动旗下番茄小说在经历 AI 训练协议风波后，开始整治低质 AI 批量生成内容。 这些事件凸显了中国科技行业在 AI 驱动效率与用户/创作者权益之间日益紧张的关系，可能迫使平台重新思考 AI 部署策略，以避免疏远用户群体。 网易自 2025 年起在美术和编程环节部署了 AI 原生管线，部分环节效能提升高达 300%，但此次抵制表明 AI 生成内容的质量和伦理问题仍未解决。
+7-Zip 26.01 于周一发布，新增了对 Linux 上 2MB 大页的支持，从而加快 7z、XZ、LZMA 和 LZMA2 格式的压缩速度。同时引入了三个新的命令行选项（-spod、-spoc、-spor），用于控制解压时输出目录路径的生成。 此次更新为 Linux 上广泛使用的压缩工具带来了显著的性能提升，压缩速度可提高约 10%。它使经常压缩大文件的 Linux 用户受益，让 7-Zip 在与原生 Linux 工具的竞争中更具优势。 大页支持通过 -slp（设置大页）开关启用，如果无法分配大页，7-Zip 会回退到常规小页。新的路径生成选项允许用户控制解压时输出目录的创建方式，提供了更高的灵活性。
 
-telegram · zaihuapd · Apr 27, 12:22
+rss · Phoronix · Apr 28, 09:55
 
-**背景**: AI 原生管线指将 AI 深度集成到内容创作中的开发流程，例如通过文本提示生成图形、音效和脚本。“停氪”是中国玩家通过停止游戏内购进行抗议的术语。AIGC（AI 生成内容）指利用 AI 创作作品，引发了版权和肖像权问题。
+**背景**: 大页是 Linux 内存管理的一项特性，它使用更大的内存页（例如 2MB 而非默认的 4KB）来减少转换后备缓冲器（TLB）未命中，从而提升内存密集型应用的性能。7-Zip 是一款流行的开源文件归档工具，以其高压缩比和支持多种格式而闻名。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://zhuanlan.zhihu.com/p/2028499690979607957">玩家控诉网易《第五人格》AI画图 发起“停氪”行动 - 知乎</a></li>
-<li><a href="https://huggingface.co/spaces/luoyike2003/6k6g">6k6g · AI 原 生 游戏开发 管 线 - a Hugging Face Space by luoyike2003</a></li>
+<li><a href="https://www.phoronix.com/news/7-Zip-26.01">7-Zip 26.01 Now Allows Making Use Of Huge Pages On Linux For ...</a></li>
+<li><a href="https://7-zip.opensource.jp/chm/cmdline/switches/large_pages.htm">-slp (Set Large Pages mode) switch - Open Source</a></li>
+<li><a href="https://wiki.debian.org/Hugepages">Hugepages - Debian Wiki</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: Telegram 频道的讨论可能包含关于 AI 伦理和行业影响的不同观点，一些用户批评平台优先考虑效率而非质量和权益，而另一些用户则承认 AI 的潜力但呼吁更好的监管。
+**标签**: `#7-Zip`, `#Linux`, `#compression`, `#performance`
 
-**标签**: `#AI Ethics`, `#Content Moderation`, `#Gaming`, `#Copyright`, `#China Tech`
+---
+
+<a id="item-33"></a>
+## [Stratis Storage 3.9 新增在线加密/解密/重新加密功能](https://www.phoronix.com/news/Stratis-Storage-3.9-Released) ⭐️ 6.0/10
+
+Red Hat 发布了 Stratis Storage 3.9，该版本引入了在不卸载或离线存储池的情况下，对活动存储池执行加密、解密和重新加密的功能。 此次更新增强了 Linux 存储管理员的数据安全灵活性，使他们能够动态更改加密密钥或添加/移除加密，这对于合规性和运营效率至关重要。 Stratis 构建在 XFS、LUKS、Device Mapper 和 Clevis 之上，此次发布标志着 Red Hat 在 RHEL 中放弃 Btrfs 已过去十年。在线加密功能利用了现有的 LUKS 和 Device Mapper 基础设施。
+
+rss · Phoronix · Apr 28, 00:21
+
+**背景**: Stratis 是一个 Linux 存储管理框架，通过使用现有的 Linux 内核组件（如 XFS、LUKS 和 Device Mapper）提供类似 ZFS/Btrfs 的功能（例如快照、精简配置）。它实现为一个用户空间守护进程（stratisd）和一个命令行工具（stratis）。新的在线加密功能允许管理员在不中断服务的情况下管理加密，而此前必须卸载文件系统才能进行此类操作。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Stratis_(configuration_daemon)">Stratis (configuration daemon) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Device_mapper">Device mapper</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Linux`, `#storage`, `#Stratis`, `#encryption`
+
+---
+
+<a id="item-34"></a>
+## [Valve 公布 Steam 手柄发售日期及 99 美元定价](https://www.phoronix.com/news/Steam-Controller-4-May) ⭐️ 6.0/10
+
+Valve 确认 Steam 手柄将于 5 月 4 日在美国发售，定价 99 美元。 这标志着 Valve 以一款专为 PC 游戏设计的独特手柄进入游戏硬件市场，可能影响玩家与 Steam 游戏的交互方式。 Steam 手柄配备双触控板、触觉反馈和可自定义按键映射，旨在弥合主机与 PC 游戏之间的差距。
+
+rss · Phoronix · Apr 27, 17:33
+
+**背景**: Steam 手柄最初于 2013 年作为 Valve 的 Steam Machines 计划的一部分公布，经过多次设计修改后才推出最终版本。
+
+**标签**: `#gaming`, `#hardware`, `#Valve`, `#Steam Controller`
+
+---
+
+<a id="item-35"></a>
+## [英特尔酷睿 Ultra 5 250K Plus 以 219 美元为 Linux 用户提供卓越价值](https://www.phoronix.com/review/intel-core-ultra-5-250k-plus) ⭐️ 6.0/10
+
+Phoronix 评测了基于 Arrow Lake 架构的英特尔酷睿 Ultra 5 250K Plus 桌面 CPU，售价 219 美元，发现其为 Linux 用户提供了卓越的性能。 这款 CPU 为 Linux 爱好者提供了一个极具吸引力的预算选择，以低价提供强劲性能，可能改变 300 美元以下桌面 CPU 市场的价值认知。 酷睿 Ultra 5 250K Plus 拥有 18 核 18 线程，基础频率 4.2 GHz，最高可加速至 5.3 GHz，采用 Arrow Lake 架构和 3 纳米工艺制造。
+
+rss · Phoronix · Apr 27, 15:06
+
+**背景**: 英特尔的 Arrow Lake 架构是 Meteor Lake 的继任者，专为酷睿 Ultra 200S 系列等桌面处理器设计。酷睿 Ultra 5 250K Plus 是该系列中的经济型型号，面向需要良好多线程性能但预算有限的用户。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.intel.com/content/www/us/en/products/sku/245694/intel-core-ultra-5-processor-250k-plus-30m-cache-up-to-5-30-ghz/specifications.html">Intel® Core™ Ultra 5 processor 250K Plus</a></li>
+<li><a href="https://www.techpowerup.com/cpu-specs/core-ultra-5-250k-plus.c4352">Intel Core Ultra 5 250K Plus Specs | TechPowerUp CPU Database</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Intel`, `#Linux`, `#CPU`, `#hardware review`
+
+---
+
+<a id="item-36"></a>
+## [AMD VPE 2.0 支持已合并到 Mesa 26.2](https://www.phoronix.com/news/AMD-VPE-2.0-Mesa) ⭐️ 6.0/10
+
+针对未来 Radeon GPU 中的 AMD VPE 2.0 引擎的支持已合并到 Mesa 26.2 图形驱动开发代码中。 此更新确保未来的 AMD Radeon GPU 在视频处理任务中获得适当的开源驱动支持，使 Linux 用户和开源社区受益。 VPE 2.0 的合并引入了 RGB 三平面支持和额外的视频旋转功能，但主要变更尚未披露。
+
+rss · Phoronix · Apr 27, 10:10
+
+**背景**: Mesa 是 OpenGL 和 Vulkan 等图形 API 的开源实现，将其转换为特定供应商的硬件驱动。VPE（视频处理引擎）负责 AMD GPU 上的视频编解码及其他视频任务。VPE 2.0 是该引擎针对未来 Radeon GPU 的下一代版本。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.phoronix.com/news/AMD-VPE-2.0-Mesa">AMD VPE 2 . 0 Support Merged For Mesa 26.2 - Phoronix</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mesa_(computer_graphics)">Mesa (computer graphics) - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AMD`, `#Mesa`, `#GPU`, `#drivers`, `#open-source`
+
+---
+
+<a id="item-37"></a>
+## [D7VK v1.8 增强 Vulkan 上的旧版 Direct3D 支持](https://www.phoronix.com/news/D7VK-1.8-Released) ⭐️ 6.0/10
+
+D7VK v1.8 已发布，继续改进对旧版 Direct3D（D3D3 到 D3D7）的支持，将其调用转换为 Vulkan API。 此次更新使使用 Steam Play (Proton) 的 Linux 玩家受益，增强了对依赖 Direct3D 3-7 的旧 Windows 游戏的兼容性，扩大了可玩游戏库。 D7VK 基于 DXVK 构建，后者处理 Direct3D 8-11，而 v1.8 专注于对旧版 D3D 前端的增量修复和优化。
+
+rss · Phoronix · Apr 27, 04:00
+
+**背景**: DXVK 是一个开源转换层，将 Direct3D 8/9/10/11 调用转换为 Vulkan，使 Windows 游戏能够通过 Wine 或 Proton 在 Linux 上运行。D7VK 将此能力扩展到更旧的 Direct3D 版本（3-7），这些版本被许多经典游戏使用。Proton 由 Valve 开发，将 Wine 和 DXVK/D7VK 集成到 Steam 中，为 Linux 提供无缝的 Windows 游戏兼容性。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/DXVK">DXVK</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Steam_Play_Proton">Steam Play Proton</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Vulkan`, `#Direct3D`, `#compatibility`, `#Steam Play`, `#Proton`
 
 ---
