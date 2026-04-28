@@ -2,8 +2,8 @@ name: Daily Horizon Summary
 
 on:
   schedule:
-    - cron: '0 0 * * *'    # 每天 UTC 0:00（北京时间 8:00）
-  workflow_dispatch:        # 也可手动触发
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   daily-summary:
@@ -31,114 +31,15 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: uv run horizon --hours 48
 
-      - name: Set current date as environment variable
+      - name: Set current date
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
       - name: Send to Telegram
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          FILE="docs/_posts/${DATE}-summary-zh.md"
-          if [ ! -f "$FILE" ]; then
-            echo "未找到日报文件，跳过 Telegram 推送"
-            exit 0
-          fi
-
-          python3 << 'PYEOF'
-import os
-import urllib.request
-import urllib.parse
-import json
-
-token = os.environ.get("TG_TOKEN")
-chat_id = os.environ.get("TG_CHAT_ID")
-date = os.environ.get("DATE")
-file_path = f"docs/_posts/{date}-summary-zh.md"
-
-if not token or not chat_id:
-    print("缺少 Telegram 配置，跳过")
-    exit(0)
-
-try:
-    with open(file_path, "r", encoding="utf-8") as f:
-        content = f.read()
-except FileNotFoundError:
-    print(f"文件不存在: {file_path}")
-    exit(0)
-
-def send_msg(text):
-    url = f"https://api.telegram.org/bot{token}/sendMessage"
-    data = urllib.parse.urlencode({
-        "chat_id": chat_id,
-        "text": text,
-        "parse_mode": "Markdown",
-    }).encode()
-    req = urllib.request.Request(url, data=data, method="POST")
-    resp = urllib.request.urlopen(req)
-    return json.loads(resp.read())
-
-# 提取标题和概览
-lines = content.split("\n")
-title = f"🌅 Horizon 日报 | {date}"
-overview = []
-item_lines = []
-in_item = False
-
-for line in lines:
-    if line.startswith("## "):
-        in_item = True
-    if not in_item and line.strip():
-        overview.append(line)
-    if in_item:
-        item_lines.append(line)
-
-# 概览消息
-overview_text = "\n".join(overview)
-if len(overview_text) > 3800:
-    overview_text = overview_text[:3800] + "\n\n..."
-
-resp = send_msg(overview_text)
-print(f"✓ 概览已发送: {resp.get('ok')}")
-
-# 逐条发送详情（前10条）
-count = 0
-current_item = []
-api_failures = 0
-
-for line in item_lines:
-    if line.startswith("## "):
-        if current_item and count < 10:
-            msg = "\n".join(current_item)
-            if len(msg) > 3800:
-                msg = msg[:3800] + "\n\n..."
-            if count > 0:  # 第一条已在概览中
-                try:
-                    send_msg(msg)
-                    print(f"✓ 第{count}条已发送")
-                except:
-                    api_failures += 1
-                    print(f"✗ 第{count}条发送失败")
-            count += 1
-        current_item = [line]
-    elif current_item:
-        current_item.append(line)
-
-if current_item and count < 10:
-    msg = "\n".join(current_item)
-    if len(msg) > 3800:
-        msg = msg[:3800] + "\n\n..."
-    try:
-        send_msg(msg)
-        print(f"✓ 第{count}条已发送")
-    except:
-        api_failures += 1
-
-if api_failures:
-    print(f"⚠ {api_failures} 条发送失败")
-
-print(f"✅ 共处理 {count} 条资讯")
-PYEOF
+          DATE: ${{ env.DATE }}
+        run: python3 scripts/send_telegram.py
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
@@ -146,6 +47,6 @@ PYEOF
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           keep_files: true
-          commit_message: "📝 Daily Summary: ${{ env.DATE }}"
+          commit_message: "Daily Summary: ${{ env.DATE }}"
           publish_branch: gh-pages
           enable_jekyll: true
