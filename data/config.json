@@ -3,45 +3,48 @@
   "ai": {
     "provider": "openai",
     "model": "deepseek-chat",
-    "base_url": "https://api.deepseek.com",
     "api_key_env": "OPENAI_API_KEY",
+    "base_url": "https://api.deepseek.com/v1",
     "temperature": 0.3,
-    "max_tokens": 8192,
-    "languages": [
-      "zh",
-      "en"
-    ]
+    "max_tokens": 4096,
+    "throttle_sec": 0.5,
+    "languages": ["zh"]
+  },
+  "email": {
+    "enabled": false,
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 465,
+    "imap_server": "imap.qq.com",
+    "imap_port": 993,
+    "email_address": "xxx@qq.com",
+    "sender_name": "Horizon Daily",
+    "subscribe_keyword": "SUBSCRIBE",
+    "unsubscribe_keyword": "UNSUBSCRIBE"
   },
   "sources": {
     "github": [
       {
         "type": "user_events",
-        "username": "karpathy",
+        "username": "torvalds",
         "enabled": true
       },
       {
         "type": "repo_releases",
-        "owner": "vllm-project",
-        "repo": "vllm",
+        "owner": "astral-sh",
+        "repo": "uv",
         "enabled": true
       },
       {
         "type": "repo_releases",
-        "owner": "sgl-project",
-        "repo": "sglang",
-        "enabled": true
-      },
-      {
-        "type": "repo_releases",
-        "owner": "triton-lang",
-        "repo": "triton",
+        "owner": "goharbor",
+        "repo": "harbor",
         "enabled": true
       }
     ],
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 30,
-      "min_score": 150
+      "fetch_top_stories": 20,
+      "min_score": 100
     },
     "rss": [
       {
@@ -51,16 +54,22 @@
         "category": "ai-tools"
       },
       {
-        "name": "GitHub Trending - Daily",
-        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
+        "name": "Solidot",
+        "url": "https://www.solidot.org/index.rss",
         "enabled": true,
-        "category": "github-trending"
+        "category": "tech-news"
       },
       {
-        "name": "LWN.net",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
+        "name": "IThome 日报",
+        "url": "https://www.ithome.com/rss/",
         "enabled": true,
-        "category": "linux-kernel"
+        "category": "tech-news"
+      },
+      {
+        "name": "Phoronix",
+        "url": "https://www.phoronix.com/rss.php",
+        "enabled": true,
+        "category": "linux"
       }
     ],
     "reddit": {
@@ -72,46 +81,33 @@
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 15,
-          "min_score": 60
-        },
-        {
-          "subreddit": "LocalLLaMA",
-          "enabled": true,
-          "sort": "hot",
-          "time_filter": "day",
-          "fetch_limit": 15,
-          "min_score": 60
+          "min_score": 50
         }
       ],
-      "users": [],
-      "fetch_comments": 10
-    },
-    "telegram": {
-      "enabled": true,
-      "channels": [
+      "users": [
         {
-          "channel": "zaihuapd",
+          "username": "iamthatis",
           "enabled": true,
-          "fetch_limit": 20
+          "sort": "new",
+          "fetch_limit": 10
         }
-      ]
+      ],
+      "fetch_comments": 5
     }
   },
   "filtering": {
-    "ai_score_threshold": 7.0,
+    "ai_score_threshold": 6.0,
     "time_window_hours": 24
   },
   "webhook": {
-    "enabled": true,
+    "enabled": false,
     "url_env": "HORIZON_WEBHOOK_URL",
-    "delivery": "summary_and_items",
-    "overview_position": "last",
-    "platform": "feishu",
-    "layout": "collapsible",
+    "delivery": "summary",
+    "overview_position": "first",
+    "platform": "generic",
+    "layout": "markdown",
     "fallback_layout": "markdown",
-    "languages": [
-      "zh"
-    ],
+    "languages": null,
     "request_body": {
       "msg_type": "interactive",
       "card": {
@@ -128,6 +124,13 @@
         },
         "body": {
           "elements": [
+            {
+              "tag": "markdown",
+              "content": "Horizon生成结果: #{result}\\nHorizon日报重要资讯数量: #{important_items}/#{all_items}"
+            },
+            {
+              "tag": "hr"
+            },
             {
               "tag": "markdown",
               "content": "#{summary}"
