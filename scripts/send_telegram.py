@@ -1,5 +1,5 @@
 import os
-import sys
+import re
 import urllib.request
 import urllib.parse
 import json
@@ -13,6 +13,18 @@ def send_msg(token, chat_id, text):
     req = urllib.request.Request(url, data=data, method="POST")
     resp = urllib.request.urlopen(req)
     return json.loads(resp.read())
+
+def truncate(text, max_chars=100):
+    """截断文本到约max_chars个字符，保留完整词语"""
+    if len(text) <= max_chars:
+        return text
+    # 找到最后一个完整词的位置
+    truncated = text[:max_chars]
+    # 向前查找最后一个空格/标点
+    for i in range(max_chars - 1, max_chars - 50, -1):
+        if truncated[i] in ' ，、。！；：' or truncated[i] == ' ':
+            return truncated[:i + 1] + "…"
+    return truncated + "…"
 
 def main():
     token = os.environ.get("TG_TOKEN")
@@ -31,31 +43,48 @@ def main():
         print(f"文件不存在: {file_path}")
         return
 
-    # 提取概览行（带 ⭐️ 评分的条目列表）
-    items = []
-    for line in content.split("\n"):
-        # 匹配 "1. [标题](#item-1) ⭐️ X.X/10" 这类行
-        if "⭐️" in line and line.strip().startswith(("1.", "2.", "3.", "4.", "5.", "6.", "7.", "8.", "9.", "10.", "11.", "12.", "13.", "14.", "15.")):
-            # 清理：去掉 markdown 链接标记 [`xxx`] 和 (`#item-1`)
-            clean = line
-            # 去掉 [内容](链接) 变成 内容
-            import re
-            clean = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', clean)
-            # 去掉链接
-            clean = re.sub(r'\(https?://[^)]+\)', '', clean)
-            # 去掉 <details> 标签
-            clean = re.sub(r'<[^>]+>', '', clean)
-            # 去多余空格
-            clean = re.sub(r'\s+', ' ', clean).strip()
-            items.append(clean)
-
-    # 从文件头部提取统计信息
+    # 提取统计行
     stats_line = ""
     for line in content.split("\n"):
         if "从" in line and "条" in line and "筛选" in line:
-            stats_line = line.strip()
-            stats_line = re.sub(r'[<>]', '', stats_line)
+            stats_line = re.sub(r'[<>]', '', line.strip())
             break
+
+    # 按 item-1, item-2 分割内容，提取每条的标题和正文
+    sections = re.split(r'<a id="item-(\d+)"></a>', content)
+    # sections[0] = 空或开头, sections[1] = id, sections[2] = 内容...
+
+    items_data = []
+    for i in range(1, len(sections), 2):
+        item_id = sections[i]
+        item_content = sections[i + 1] if i + 1 < len(sections) else ""
+
+        # 提取标题行 (## [标题](url) ⭐️ X.X/10)
+        title_match = re.search(r'## \[([^\]]+)\]\([^)]+\) ⭐️ ([\d.]+)/10', item_content)
+        if not title_match:
+            continue
+        title = title_match.group(1)
+
+        # 提取正文（标题之后、下一个 **来源之前的内容）
+        body_match = re.search(
+            r'⭐️ [\d.]+/10\s*\n+(.+?)\n\s*\n\s*\S+\s*·',
+            item_content, re.DOTALL
+        )
+        if body_match:
+            summary = body_match.group(1).strip()
+            # 清理 markdown
+            summary = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', summary)
+            summary = re.sub(r'<[^>]+>', '', summary)
+            summary = re.sub(r'\s+', ' ', summary).strip()
+            summary = truncate(summary, 100)
+        else:
+            summary = ""
+
+        items_data.append({
+            "id": int(item_id),
+            "title": title,
+            "summary": summary
+        })
 
     # 组装消息
     msg = f"🌅 Horizon 日报 | {date}\n"
@@ -63,11 +92,14 @@ def main():
         msg += f"📊 {stats_line}\n"
     msg += "─" * 20 + "\n"
 
-    for i, item in enumerate(items[:15], 1):
-        msg += f"{item}\n"
+    for item in items_data[:15]:
+        msg += f"{item['id']}. {item['title']} ⭐️\n"
+        if item['summary']:
+            msg += f"   {item['summary']}\n"
+        msg += "\n"
 
-    if len(items) > 15:
-        msg += f"\n📎 共 {len(items)} 条，更多见 https://cunbin87.github.io/Horizon/"
+    if len(items_data) > 15:
+        msg += f"📎 共 {len(items_data)} 条，更多见 https://cunbin87.github.io/Horizon/"
 
     msg = msg.strip()
 
@@ -76,10 +108,9 @@ def main():
 
     try:
         send_msg(token, chat_id, msg)
-        print(f"✅ 已发送精简日报 ({len(msg)} chars, {len(items)} 条)")
+        print(f"✅ 已发送精简日报 ({len(msg)} chars, {len(items_data)} 条)")
     except Exception as e:
         print(f"❌ 发送失败: {e}")
-        # 尝试不带任何链接的纯文本版本
         msg_simple = msg.replace("https://", "")
         try:
             send_msg(token, chat_id, msg_simple)
